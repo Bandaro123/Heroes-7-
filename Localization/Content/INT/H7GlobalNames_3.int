@@ -1,0 +1,26 @@
+UCP 1.2
+
+[Dungeon.A_Himiko_Name H7GlobalName]
+mName="Himiko"
+
+[Fortress.A_Iark_Name H7GlobalName]
+mName="Iark"
+
+[Fortress.A_Roek_Name H7GlobalName]
+mName="Roek"
+
+[Necropolis.A_Haffayad_Name H7GlobalName]
+mName="Haffayad"
+
+[Necropolis.A_Scatha_Name H7GlobalName]
+mName="Scatha"
+
+[Stronghold.A_Mokka_Name H7GlobalName]
+mName="Mokka"
+
+[Stronghold.A_Ruqav_Name H7GlobalName]
+mName="Ruqav"
+
+[Sylvan.A_Adowyn_Name H7GlobalName]
+mName="Adowyn"
+
