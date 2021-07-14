@@ -1,0 +1,129 @@
+[A_CoordinatedEffort_Buff H7BaseBuff]
+mName="Coordinated Effort"
+mTooltip="If an enemy creature stack dies, the next friendly creature will have good morale. Another friendly creature which may become active earlier (because Initiative changed) is not affected by this ability."
+
+[A_UnitedWeStand_Buff H7BaseBuff]
+mName="United We Stand"
+mTooltip=""
+
+[A_BrothersInArms_Ability H7HeroAbility]
+mTooltipMagicGuild=""
+mTooltipMagicGuildRankLine=""
+mTooltipUpgraded=""
+mName="Brothers in Arms"
+mTooltip="Whenever a friendly creature has good morale, all other friendly creatures next to it get %spell1.spell.buff.buff.stat %spell1.spell.buff.buff.stat.icon Morale until they have good morale. This effect can stack up."
+
+[A_BrothersInArms_Buff H7BaseBuff]
+mName="Brothers in Arms"
+mTooltip="%stat %stat.icon Morale until the creature has good morale."
+
+[A_RightfulJustice_Buff H7BaseBuff]
+mName="Rightful Justice"
+mTooltip="%special.val1 %ICON_ATTACK Attack while retaliating."
+
+[A_BlessedWords_Buff_Morale H7BaseBuff]
+mName="Blessed Words"
+mTooltip="%stat %ICON_MORALE Morale until the creature has good morale."
+
+[A_UnitedWeStand_Ability H7HeroAbility]
+mTooltipMagicGuild=""
+mTooltipMagicGuildRankLine=""
+mTooltipUpgraded=""
+mName="United We Stand"
+mTooltip="Neighbouring friendly creatures get %spell1.spell.buff1.buff.stat %ICON_DEFENSE Defence."
+
+[A_Righteousness_Buff H7BaseBuff]
+mName="Righteousness"
+mTooltip="%e3 because of the Righteousness skill. Removed when the creature has good morale."
+
+[A_VictoriousStreak_Buff_Marker H7BaseBuff]
+mName="Victorious Streak"
+mTooltip=""
+
+[A_BrothersInArms_CreatureAbility H7CreatureAbility]
+mTooltipMagicGuild=""
+mTooltipMagicGuildRankLine=""
+mTooltipUpgraded=""
+mName="Brothers in Arms"
+mTooltip="%buff.buff.stat %buff.buff.stat.icon Morale to all nearby friendly creature stacks when this unit has good morale."
+
+[A_BlessedWords_Buff H7BaseBuff]
+mName=""
+mTooltip=""
+
+[A_VictoriousStreak_Ability H7HeroAbility]
+mTooltipMagicGuild=""
+mTooltipMagicGuildRankLine=""
+mTooltipUpgraded=""
+mName="Victorious Streak"
+mTooltip="Friendly creatures deal 75% damage during morale turns, instead of half."
+
+[A_UnitedWeStand_CreatureAbility H7CreatureAbility]
+mTooltipMagicGuild=""
+mTooltipMagicGuildRankLine=""
+mTooltipUpgraded=""
+mName="United We Stand Aura"
+mTooltip=""
+
+[A_CoordinatedEffort_Ability H7HeroAbility]
+mTooltipMagicGuild=""
+mTooltipMagicGuildRankLine=""
+mTooltipUpgraded=""
+mName="Coordinated Effort"
+mTooltip="If an enemy creature stack dies, the next friendly creature will have good morale. Another friendly creature which may become active earlier (because Initiative changed) is not affected by this ability."
+
+[A_VictoriousStreak_Buff_GoodMorale H7BaseBuff]
+mName="Victorious Streak Bonus"
+mTooltip="Duration: %t"
+
+[A_BlessedWords_Ability H7HeroAbility]
+mTooltipMagicGuild=""
+mTooltipMagicGuildRankLine=""
+mTooltipUpgraded=""
+mName="Blessed Words"
+mTooltip="Whenever a friendly creature is the target of a positive spell it gets %buff1.buff.buff.buff.stat %buff1.buff.buff.buff.stat.icon Morale until it has good morale. This effect can stack up."
+
+[A_CoordinatedEffort_Buff_Morale H7BaseBuff]
+mName="Coordinated Effort"
+mTooltip="The creature will have good morale."
+
+[A_SistersOfMercy_Ability H7HeroAbility]
+mTooltipMagicGuild=""
+mTooltipMagicGuildRankLine=""
+mTooltipUpgraded=""
+mName="Sisters of Mercy"
+mTooltip="The Healing Sister heals two times each turn. The target for the second heal is newly selected."
+
+[A_Righteousness_Skill H7Skill]
+mDescriptions[0]="Friendly creatures having good morale encourage other friendly creatures and increase their morale."
+mDescriptions[1]=""
+mDescriptions[2]="Whenever a friendly creature has good morale, all other friendly creatures get %buff1.buff.stat1 %buff1.buff.stat1.icon Morale until they have good morale. This effect can stack up."
+mDescriptions[3]="The Righteousness Morale bonus is increased by additional %buff1.buff.stat1 %buff1.buff.stat1.icon Morale."
+mDescriptions[4]="The Righteousness Morale bonus is increased by additional %buff1.buff.stat1 %buff1.buff.stat1.icon Morale."
+mName="Righteousness"
+mTooltip="Haven faction skill."
+
+[A_RightfulJustice_Ability H7HeroAbility]
+mTooltipMagicGuild=""
+mTooltipMagicGuildRankLine=""
+mTooltipUpgraded=""
+mName="Rightful Justice"
+mTooltip="Friendly creatures retaliate with %buff1.buff.special.val1 %ICON_ATTACK Attack."
+
+[A_ForceOfBlessing_Ability H7HeroAbility]
+mName="Force of Blessing"
+mTooltip="Whenever a friendly creature becomes the target of a positive spell it will get a morale increase of +4 until it has good morale."
+[A_ForceOfBlessing_Buff H7BaseBuff]
+mName="Force of Blessing"
+[A_ForceOfBlessing_Buff_Morale H7BaseBuff]
+mName="Force of Blessing Morale Buff"
+mTooltip="%e1 because of the Force of Blessing ability. Removed when the creature has good morale."
+[A_ShoutOfTriumph_Ability H7HeroAbility]
+mName="Shout of Triumph"
+mTooltip="If an enemy creature stack dies, the next friendly creature that becomes active will have good morale."
+[A_ShoutOfTriumph_Buff H7BaseBuff]
+mName="Shout of Triumph"
+mTooltip="If this stack dies the next creature stack of the opposing hero will have good morale."
+[A_ShoutOfTriumph_Buff_Morale H7BaseBuff]
+mName="Shout of Triumph Morale Buff"
+mTooltip="%e1 because of the Shout of Triumph ability."
