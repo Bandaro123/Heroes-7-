@@ -139,7 +139,7 @@ mTooltip=""
 
 [A_Armageddon H7HeroAbility]
 mTooltipMagicGuild="Deals %d.icon Fire damage to all units, instantly.\n\nMaster rank: They suffer %buff.buff.d.min to %buff.buff.d.max %ICON_FIRE Fire damage over %buff.buff.durini turns."
-mTooltipMagicGuildRankLine="%d.min to %d.max %d.icon"
+mTooltipMagicGuildRankLine="%d.min to %d.max %d.icon and %buff1.buff.d.min to %buff1.buff.d.max %ICON_FIRE every turn"
 mTooltipUpgraded=""
 mName="Armageddon"
 mTooltip="Deals %d.min to %d.max %d.icon Fire damage to all units, instantly.\nMaster rank: They suffer %buff.buff.d.min to %buff.buff.d.max %ICON_FIRE Fire damage over %buff.buff.durini turns."
