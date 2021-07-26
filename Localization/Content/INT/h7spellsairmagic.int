@@ -112,7 +112,7 @@ mName="Erratic Storm"
 mTooltipMagicGuild="Creates an erratic storm on the target 4x4 area for a number of combat rounds. Ranged creatures inside have reduced %icon_attack Attack. Creatures targeted by ranged attacks crossing the area are in cover and only take 10% of the damage. Enemy creatures inside receive %ICON_AIR damage and have their %ICON_INITIATIVE Initiative set to 1."
 mTooltipMagicGuildRankLine="Erratic Storm lasts %durini combat rounds. %buff1.buff.stat %icon_attack Attack. %buff4.buff.d1.min to %buff4.buff.d1.max %ICON_AIR"
 mName="Erratic Storm"
-mTooltip="Creates an erratic storm on the target 4x4 area for %durini combat rounds. Ranged creatures inside get %buff1.buff.stat %icon_attack Attack. Enemy creatures inside end ending their turn there receive %buff4.buff.d1.min to %buff4.buff.d1.max %ICON_AIR damage and have their %ICON_INITIATIVE Initiative set to 1. Creatures targeted by ranged attacks crossing the area are in cover and only take 10% of the damage."
+mTooltip="Creates an erratic storm on the target 4x4 area for %durini combat rounds. Ranged creatures inside get %buff1.buff.stat %icon_attack Attack. Enemy creatures inside and ending their turn there receive %buff4.buff.d1.min to %buff4.buff.d1.max %ICON_AIR damage and have their %ICON_INITIATIVE Initiative set to 1. Creatures targeted by ranged attacks crossing the area are in cover and only take 10% of the damage."
 
 [A_StormArrows_Buff H7BaseBuff]
 mName="Storm Arrows"
