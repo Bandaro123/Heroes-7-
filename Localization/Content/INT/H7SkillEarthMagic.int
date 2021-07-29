@@ -1,0 +1,94 @@
+[A_NaturesVitality_Buff H7BaseBuff]
+mName=""
+mTooltip=""
+
+[A_NaturesVitality_Ability H7HeroAbility]
+mTooltipMagicGuild=""
+mTooltipMagicGuildRankLine=""
+mTooltipUpgraded=""
+mName="Nature's Vitality"
+mTooltip="%buff1.buff.stat Health for friendly creatures."
+
+[A_EarthScholar_Ability H7HeroAbility]
+mTooltipMagicGuild=""
+mTooltipMagicGuildRankLine=""
+mTooltipUpgraded=""
+mName="Earth Scholar"
+mTooltip="Reduces mana cost of Earth spells by %special.norm%."
+
+[A_RockSolid_Ability H7HeroAbility]
+mTooltipMagicGuild=""
+mTooltipMagicGuildRankLine=""
+mTooltipUpgraded=""
+mName="Rock Solid"
+mTooltip="%buff.buff.buff.buff.stat %ICON_DEFENSE Defence for every Earth spell cast. Lasts until end of combat."
+
+[A_EarthWisdom_Ability H7HeroAbility]
+mTooltipMagicGuild=""
+mTooltipMagicGuildRankLine=""
+mTooltipUpgraded=""
+mName="Earth Wisdom"
+mTooltip="%stat1 %stat1.icon Magic for Earth spells. Every other wisdom ability adds %stat1 %stat1.icon Magic to this bonus."
+
+[A_RockSolid_Buff H7BaseBuff]
+mName="RockSolid"
+mTooltip=""
+
+[A_EarthMagic_Skill H7Skill]
+mDescriptions[0]="Makes Earth spells more effective and increases the hero's %ICON_ARCANE_KNOWLEDGE Arcane Knowledge."
+mDescriptions[1]=""
+mDescriptions[2]="Makes Earth spells more effective and increases the hero's %ICON_ARCANE_KNOWLEDGE Arcane Knowledge by 1."
+mDescriptions[3]="Makes Earth spells more effective and increases the hero's %ICON_ARCANE_KNOWLEDGE Arcane Knowledge by additional 2."
+mDescriptions[4]="Makes Earth spells more effective and increases the hero's %ICON_ARCANE_KNOWLEDGE Arcane Knowledge by additional 3."
+mName="Earth Magic"
+mTooltip="Allows you to learn spells of the Earth magic school in a magic guild. Improves and augments their effects."
+
+[A_MasterOfEarth_III_Ability H7HeroAbility]
+mTooltipMagicGuild=""
+mTooltipMagicGuildRankLine=""
+mTooltipUpgraded=""
+mName="Earth Knowledge III"
+mTooltip="%spell1.name deals double damage to structures and enemy creatures.\n%spell2.name deals double damage to the unit on the centre tile."
+
+[A_MasterOfEarth_I_Ability H7HeroAbility]
+mTooltipMagicGuild=""
+mTooltipMagicGuildRankLine=""
+mTooltipUpgraded=""
+mName="Earth Knowledge I"
+mTooltip="%spell1.name is now cast on all friendly creatures.\n%spell2.name is now cast on creatures in target 4x4 area\nAdds %spell3.name to spellbook."
+
+[A_MasterOfEarth_II_Ability H7HeroAbility]
+mTooltipMagicGuild=""
+mTooltipMagicGuildRankLine=""
+mTooltipUpgraded=""
+mName="Earth Knowledge II"
+mTooltip="%spell1.name additionally deals %spell1.spell.buff2.buff.d.min %spell1.spell.buff2.buff.d.icon Earth damage if the creature moves.\n%spell2.name now lasts until end of combat.\nAdds %spell3.name to spellbook."
+
+[A_RockSolid_Buff_Defense H7BaseBuff]
+mName="Rock Solid"
+mTooltip="%stat %ICON_DEFENSE Defence until end of combat."
+
+[A_Collapse_Ability H7HeroAbility]
+mName="Collapse"
+mTooltip="Earthquake deals double damage to any already damaged wall. Stone Spikes deals double the damage to the creature on the center tile."
+[A_ImprovedTier1Spells_Ability H7HeroAbility]
+mName="Master of Earth I"
+mTooltip="%spell1.name and %spell2.name are now cast on creatures in target 4x4 area."
+[A_ImprovedTier2Spells_Ability H7HeroAbility]
+mName="Master of Earth II"
+mTooltip="Creatures with Entangle applied receive earth magic damage if they leave their tile. The duration of Poison Spray is increased to 10 turns."
+[A_ImprovedTier3Spells_Ability H7HeroAbility]
+mName="Master of Earth III"
+mTooltip="Earthquake deals double damage to any already damaged wall. Stone Spikes deals double the damage to the creature on the center tile."
+[A_LingeringPoison_Ability H7HeroAbility]
+mName="Lingering Poison"
+mTooltip="Creatures moving out of the Poison Cloud get the "Poisoned" debuff, that deals earth magic damage at the beginning of the creature's turn, lasting for 1 turn."
+[A_MassRegeneration_Ability H7HeroAbility]
+mName="Mass Regeneration"
+mTooltip="Regeneration targets all friendly creatures in an area of 6x6 tiles."
+[A_MassStoneSkin_Ability H7HeroAbility]
+mName="Mass Stone Skin"
+mTooltip="Stone Skin targets all friendly creatures in an area of 4x4 tiles."
+[A_PoisonousThorns_Ability H7HeroAbility]
+mName="Poisonous Thorns"
+mTooltip="Creatures with Entangle applied receive  earth magic damage for every tile moved."

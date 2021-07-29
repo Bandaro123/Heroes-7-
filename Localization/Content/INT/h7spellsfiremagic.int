@@ -138,11 +138,11 @@ mName="Frenzy"
 mTooltip=""
 
 [A_Armageddon H7HeroAbility]
-mTooltipMagicGuild="Deals %d.icon Fire damage to all units, instantly.\n\nMaster rank: They suffer %buff.buff.d.min to %buff.buff.d.max %ICON_FIRE Fire damage over %buff.buff.durini turns."
-mTooltipMagicGuildRankLine="%d.min to %d.max %d.icon and %buff1.buff.d.min to %buff1.buff.d.max %ICON_FIRE every turn"
+mTooltipMagicGuild="Deals %d.icon Fire damage to all units, instantly.\n\nEnemy units suffer %ICON_FIRE Fire over %buff.buff.durini turns."
+mTooltipMagicGuildRankLine="%d.min to %d.max %d1.icon and %buff1.buff.d.min to %buff1.buff.d.max %ICON_FIRE every turn"
 mTooltipUpgraded=""
 mName="Armageddon"
-mTooltip="Deals %d.min to %d.max %d.icon Fire damage to all units, instantly.\nMaster rank: They suffer %buff.buff.d.min to %buff.buff.d.max %ICON_FIRE Fire damage over %buff.buff.durini turns."
+mTooltip="Deals %d.min to %d.max %d.icon Fire damage to all units, instantly. Enemies suffer %buff.buff.d.min to %buff.buff.d.max %ICON_FIRE Fire damage over %buff.buff.durini turns."
 
 [A_BlessingOfArkath_Damage H7HeroAbility]
 mTooltipMagicGuild=""
@@ -214,11 +214,11 @@ mName="Blessing of Arkath"
 mTooltip=""
 
 [A_InnerFire H7HeroAbility]
-mTooltipMagicGuild="Increases the %ICON_ATTACK Attack and %ICON_INITIATIVE Initiative of the target unit for %buff.buff.durini turns."
+mTooltipMagicGuild="Increases the %ICON_ATTACK Attack and %ICON_INITIATIVE Initiative of the target melee unit for %buff.buff.durini turns."
 mTooltipMagicGuildRankLine="%buff.buff.stat1 %buff.buff.stat1.icon Attack and %buff.buff.stat2 %buff.buff.stat2.icon Initiative"
-mTooltipUpgraded="Increases by %buff.buff.stat1 %buff.buff.stat1.icon the Attack and by %buff.buff.stat2 %buff.buff.stat2.icon the Initiative of all friendly creatures  for %buff.buff.durini turns."
+mTooltipUpgraded="Increases by %buff.buff.stat1 %buff.buff.stat1.icon the Attack and by %buff.buff.stat2 %buff.buff.stat2.icon the Initiative of all friendly melee creatures  for %buff.buff.durini turns."
 mName="Inner Fire"
-mTooltip="Increases by %buff.buff.stat1 %buff.buff.stat1.icon the Attack and by %buff.buff.stat2 %buff.buff.stat2.icon the Initiative of the target creatures for %buff.buff.durini turns."
+mTooltip="Increases by %buff.buff.stat1 %buff.buff.stat1.icon the Attack and by %buff.buff.stat2 %buff.buff.stat2.icon the Initiative of the target melee creatures for %buff.buff.durini turns."
 
 [A_FireSentry H7HeroAbility]
 mTooltipMagicGuild="Summon a 1x1 Fire Sentry on target empty tile. It lasts until the end of the next 2 combat rounds. The Fire Sentry shoots fire at two random of the closest enemy creatures at the end of each combat round and at the first enemy creature that performed a ranged attack during a combat round."
