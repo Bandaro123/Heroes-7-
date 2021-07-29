@@ -1,0 +1,96 @@
+[A_UpliftingLight_Buff H7BaseBuff]
+mName=""
+mTooltip=""
+
+[A_ChosenOfTheLight_Ability H7HeroAbility]
+mTooltipMagicGuild=""
+mTooltipMagicGuildRankLine=""
+mTooltipUpgraded=""
+mName="Chosen of the Light"
+mTooltip="Whenever the hero casts a positive Light spell on a friendly creature it gets\n%buff.buff.stat1 %ICON_ATTACK Attack\n%buff.buff.stat2 %ICON_DEFENSE Defence\n%buff.buff.stat4 %ICON_MORALE Morale\n%buff.buff.stat3 %ICON_LUCK Luck\nand deals maximum damage until its next turn."
+
+[A_MasterOfLight_II_Ability H7HeroAbility]
+mTooltipMagicGuild=""
+mTooltipMagicGuildRankLine=""
+mTooltipUpgraded=""
+mName="Light Knowledge II"
+mTooltip="%spell1.name is now cast on creatures in target 3x3 area. %spell2.name is now cast on creatures in target 4x4 area.\nAdds %spell3.name to spellbook."
+
+[A_UpliftingLight_Buff_Leadership H7BaseBuff]
+mName="Uplifting Light"
+mTooltip=""
+
+[A_UpliftingLight_Ability H7HeroAbility]
+mTooltipMagicGuild=""
+mTooltipMagicGuildRankLine=""
+mTooltipUpgraded=""
+mName="Uplifting Light"
+mTooltip="%buff.buff.buff.buff.stat %buff.buff.buff.buff.stat.icon Leadership for every Light spell cast. Lasts until the end of combat."
+
+[A_LightScholar_Ability H7HeroAbility]
+mTooltipMagicGuild=""
+mTooltipMagicGuildRankLine=""
+mTooltipUpgraded=""
+mName="Light Scholar"
+mTooltip="Reduces mana cost of Light spells by %special.norm%."
+
+[A_MasterOfLight_I_Ability H7HeroAbility]
+mTooltipMagicGuild=""
+mTooltipMagicGuildRankLine=""
+mTooltipUpgraded=""
+mName="Light Knowledge I"
+mTooltip="%spell1.name is now cast on creatures in target 4x4 area.\n%spell2.name additionally decreases hit creatures' %ICON_ATTACK Attack and %ICON_DEFENSE Defence by %spell2.spell.buff.buff.stat1.norm for %spell2.spell.buff.buff.durnow turns.\nAdds %spell3.name to spellbook."
+
+[A_LightWisdom_Ability H7HeroAbility]
+mTooltipMagicGuild=""
+mTooltipMagicGuildRankLine=""
+mTooltipUpgraded=""
+mName="Light Wisdom"
+mTooltip="%stat1 %stat1.icon Magic for Light spells. Every other wisdom ability adds %stat1 %stat1.icon Magic to this bonus."
+
+[A_MasterOfLight_III_Ability H7HeroAbility]
+mTooltipMagicGuild=""
+mTooltipMagicGuildRankLine=""
+mTooltipUpgraded=""
+mName="Light Knowledge III"
+mTooltip="%spell1.name is now cast on creatures in target 4x4 area.\n%spell2.name additionally decreases hit creatures' %ICON_ATTACK Attack and %ICON_DEFENSE Defence by %spell2.spell.buff.buff.stat1.norm for %spell2.spell.buff.buff.durini turns."
+
+[A_LightMagic_Skill H7Skill]
+mDescriptions[0]="Makes Light spells more effective and increases the hero's %ICON_ARCANE_KNOWLEDGE Arcane Knowledge."
+mDescriptions[1]=""
+mDescriptions[2]="Makes Light spells more effective and increases the hero's %ICON_ARCANE_KNOWLEDGE Arcane Knowledge by 1."
+mDescriptions[3]="Makes Light spells more effective and increases the hero's %ICON_ARCANE_KNOWLEDGE Arcane Knowledge by additional 2."
+mDescriptions[4]="Makes Light spells more effective and increases the hero's %ICON_ARCANE_KNOWLEDGE Arcane Knowledge by additional 3."
+mName="Light Magic"
+mTooltip="Allows you to learn spells of the Light magic school in a magic guild. Improves and augments their effects."
+
+[A_BlindingLight_Ability H7HeroAbility]
+mName="Blinding Light"
+mTooltip="Affected Creatures of Sun Burst and Sun Beam have a 50% chance to receive the "Blinded" Debuff, being not able to attack until the end of the combat round."
+[A_ImprovedTier1Spells_Ability H7HeroAbility]
+mName="Master of Light I"
+mTooltip="Heal targets all friendly creatures in an area of 4x4 tiles. Stacks damaged by Sun Beam have a 50% chance to become "Blinded"."
+[A_ImprovedTier2Spells_Ability H7HeroAbility]
+mName="Master of Light II"
+mTooltip="Celestial Armour and Cleansing Light target all friendly creatures in an area of 3x3 tiles."
+[A_ImprovedTier3Spells_Ability H7HeroAbility]
+mName="Master of Light III"
+mTooltip="Retribution also deals damage to the closest enemy creature if the enchanted creature is hit by a direct damage spell of the enemy hero. Stacks damaged by Sun Burst have a 50% chance to become "Blinded"."
+[A_Justice_Ability H7HeroAbility]
+mName="Justice"
+mTooltip="Retribution also deals damage to the closest enemy creature if the enchanted creature is hit by a direct damage spell of the enemy hero. The target is chosen at random, if there are multiple creatures in the same distance."
+[A_MassCelestialArmor_Ability H7HeroAbility]
+mName="Mass Celestial Armor"
+mTooltip="Celestial Armor targets all friendly creatures in an area of 3x3 tiles."
+[A_MassCleansing_Ability H7HeroAbility]
+mName="Mass Cleansing"
+mTooltip="Cleansing Light targets all friendly creatures in an area of 4x4 tiles."
+[A_MassHeal_Ability H7HeroAbility]
+mName="Mass Heal"
+mTooltip="Heal targets all friendly creatures in an area of 4x4 tiles."
+[A_PiousCaster_Ability H7HeroAbility]
+mName="Pious Caster"
+mTooltip="+1 leadership per light spell cast until end of combat. Capped at +10."
+[A_PiousCaster_Buff_Leadership H7BaseBuff]
+mName="Rock Solid"
+mTooltip="+ %stat defense until the end of combat."
