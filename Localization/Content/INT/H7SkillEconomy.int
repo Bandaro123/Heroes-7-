@@ -1,0 +1,82 @@
+[A_Architect_Ability H7HeroAbility]
+mTooltipMagicGuild=""
+mTooltipMagicGuildRankLine=""
+mTooltipUpgraded=""
+mName="Architect"
+mTooltip="Governor: The %ICON_GOLD Gold costs of buildings in this town are decreased by %buff1.buff.stat."
+
+[A_Estates_Ability H7HeroAbility]
+mTooltipMagicGuild=""
+mTooltipMagicGuildRankLine=""
+mTooltipUpgraded=""
+mName="Estates"
+mTooltip="Governor: Your town provide %buff1.buff.stat more %icon_gold Gold per day."
+
+[A_Alchemist_Ability H7HeroAbility]
+mTooltipMagicGuild=""
+mTooltipMagicGuildRankLine=""
+mTooltipUpgraded=""
+mName="Alchemist"
+mTooltip="%special1 %icon_Crystal Dragon Blood Crystal, %icon_Dragonsteel Dragon Steel, %icon_Shadowsteel Shadowsteel or %icon_Starsilver Starsilver at random twice per day."
+
+[A_Recruiter_Ability H7HeroAbility]
+mTooltipMagicGuild=""
+mTooltipMagicGuildRankLine=""
+mTooltipUpgraded=""
+mName="Recruiter"
+mTooltip="Governor: Recruiting creatures in this town costs %special1% less %ICON_GOLD Gold."
+
+[A_Foreman_Buff H7BaseBuff]
+mName="Foreman"
+mTooltip="Production increased by %stat1.norm."
+
+[A_Merchant_Ability H7HeroAbility]
+mTooltipMagicGuild=""
+mTooltipMagicGuildRankLine=""
+mTooltipUpgraded=""
+mName="Merchant"
+mTooltip="The hero enhances the rates for trading resources as having one additional marketplace."
+
+[A_TownPlanner_Ability H7HeroAbility]
+mTooltipMagicGuild=""
+mTooltipMagicGuildRankLine=""
+mTooltipUpgraded=""
+mName="Town Planner"
+mTooltip="Governor: You can build two buildings a day in this town. Buildings cost %buff1.buff.stat more %ICON_GOLD gold."
+
+[A_Economy_Skill H7Skill]
+mDescriptions[0]="The hero increases your %ICON_GOLD Gold income."
+mDescriptions[1]=""
+mDescriptions[2]="+%special1 %ICON_GOLD Gold per day."
+mDescriptions[3]="Additional +%special1 %ICON_GOLD Gold per day."
+mDescriptions[4]="Additional +%special1 %ICON_GOLD Gold per day."
+mName="Economy"
+mTooltip="Economy Tooltip"
+
+[A_Foreman_TownAbility H7BaseAbility]
+mTooltipMagicGuild=""
+mTooltipMagicGuildRankLine=""
+mTooltipUpgraded=""
+mName=""
+mTooltip=""
+
+[A_Estates_Buff H7BaseBuff]
+mName="Estates"
+mTooltip="The daily income is increased by 100%."
+
+[A_Foreman_Ability H7HeroAbility]
+mTooltipMagicGuild=""
+mTooltipMagicGuildRankLine=""
+mTooltipUpgraded=""
+mName="Foreman"
+mTooltip="Governor: The production of Sawmills and Ore Pits in this town's area of control is increased by %spell1.spell.buff1.buff.stat1.norm."
+
+[A_Manufactory_Ability H7HeroAbility]
+mName="Manufactory"
+mTooltip="Governor: The production of all sawmills and ore pits in the area of the control of this town is increased by 1."
+[A_Manufactory_Buff H7BaseBuff]
+mName="Manufactory"
+mTooltip="The production is increased by 1."
+[A_ProjectPlanner_Ability H7HeroAbility]
+mName="Project Planner"
+mTooltip="Governor: There can be two buildings build on the same day in this town."

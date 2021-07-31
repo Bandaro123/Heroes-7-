@@ -1,0 +1,110 @@
+[A_MasterOfFire_III_Ability H7HeroAbility]
+mTooltipMagicGuild=""
+mTooltipMagicGuildRankLine=""
+mTooltipUpgraded=""
+mName="Fire Knowledge III"
+mTooltip="The target creature of %spell1.name now prefers to attack enemy creatures and attacks with %spell1.spell.buff1.buff.stat7 %ICON_ATTACK Attack.\n%spell2.name additionally deals %spell2.spell.buff.buff.d.min to %spell2.spell.buff.buff.d.max %spell2.spell.buff.buff.d.icon Fire damage for %spell2.spell.buff.buff.durini turns."
+
+[A_ArdentCaster_Ability H7HeroAbility]
+mTooltipMagicGuild=""
+mTooltipMagicGuildRankLine=""
+mTooltipUpgraded=""
+mName="Ardent Caster"
+mTooltip="%buff.buff.buff.buff.stat %buff.buff.buff.buff.stat.icon Might for every Fire spell cast. Lasts until the end of combat."
+
+[A_MasterOfFire_I_Ability H7HeroAbility]
+mTooltipMagicGuild=""
+mTooltipMagicGuildRankLine=""
+mTooltipUpgraded=""
+mName="Fire Knowledge I"
+mTooltip="%spell1.name additionally deals %spell1.spell.buff.buff.d.min to %spell1.spell.buff.buff.d.max %spell1.spell.buff.buff.d.icon Fire damage for %spell1.spell.buff.buff.durini turns.\n%spell2.name is now cast on all friendly creatures."
+
+[A_FireScholar_Ability H7HeroAbility]
+mTooltipMagicGuild=""
+mTooltipMagicGuildRankLine=""
+mTooltipUpgraded=""
+mName="Fire Scholar"
+mTooltip="Reduces mana cost of Fire spells by %special.norm%."
+
+[A_FireMantle_Buff H7BaseBuff]
+mName="Fire Mantle"
+mTooltip="The creature deals additional %d1.min to %d1.max %d1.icon Fire damage when attacking in melee and %d2.min to %d2.max %d2.icon Fire damage when being attacked in melee."
+
+[A_ArdentCaster_Buff_Might H7BaseBuff]
+mName="Ardent Caster"
+mTooltip=""
+
+[A_ArdentCaster_Buff H7BaseBuff]
+mName=""
+mTooltip=""
+
+[A_FireMagic_Skill H7Skill]
+mDescriptions[0]="Makes Fire spells more effective and increases the hero's %ICON_ARCANE_KNOWLEDGE Arcane Knowledge."
+mDescriptions[1]=""
+mDescriptions[2]="Makes Fire spells more effective and increases the hero's %ICON_ARCANE_KNOWLEDGE Arcane Knowledge by 1."
+mDescriptions[3]="Makes Fire spells more effective and increases the hero's %ICON_ARCANE_KNOWLEDGE Arcane Knowledge by additional 2."
+mDescriptions[4]="Makes Fire spells more effective and increases the hero's %ICON_ARCANE_KNOWLEDGE Arcane Knowledge by additional 3."
+mName="Fire Magic"
+mTooltip="Allows you to learn spells of the Fire magic school in a magic guild. Improves and augments their effects."
+
+[A_FireWisdom_Ability H7HeroAbility]
+mTooltipMagicGuild=""
+mTooltipMagicGuildRankLine=""
+mTooltipUpgraded=""
+mName="Fire Wisdom"
+mTooltip="%stat1 %stat1.icon Magic for Fire spells. Every other wisdom ability adds %stat1 %stat1.icon Magic to this bonus."
+
+[A_FireMantle_Ability H7HeroAbility]
+mTooltipMagicGuild=""
+mTooltipMagicGuildRankLine=""
+mTooltipUpgraded=""
+mName="Fire Mantle"
+mTooltip="Friendly creatures deal additional %buff1.buff.d1.min to %buff1.buff.d1.max %buff1.buff.d1.icon Fire damage when attacking in melee and they deal %buff1.buff.d2.min to %buff1.buff.d2.max %buff1.buff.d2.icon Fire damage when being attacked in melee."
+
+[A_MasterOfFire_II_Ability H7HeroAbility]
+mTooltipMagicGuild=""
+mTooltipMagicGuildRankLine=""
+mTooltipUpgraded=""
+mName="Fire Knowledge II"
+mTooltip="%spell1.name is now cast on all friendly creatures.\n%spell2.name additionally stops creatures and deals %spell2.spell.buff3.buff.d.min to %spell2.spell.buff3.buff.d.max %ICON_FIRE Fire damage for %spell2.spell.buff3.buff.durini turns."
+
+[A_CatchingFire_Ability H7HeroAbility]
+mName="Catching Fire"
+mTooltip="Burning Determination and Inner Fire target all friendly creatures in an area of 3x3 tiles."
+[A_FireMantle_CreatureAbility H7CreatureAbility]
+mName="Fire Mantle"
+mTooltip="+%d1 fire damage when doing a melee attack. Enemies launching melee attacks receive %d2 fire damage."
+[A_FocusedFrenzy_Ability H7HeroAbility]
+mName="Focused Frenzy"
+mTooltip="Random attacks through Frenzy prefer enemy creatures before attacking adjacent friendly creatures."
+[A_Immolation_Ability H7HeroAbility]
+mName="Immolation"
+mTooltip="Fire Bolt and Fire Ball have 75% chance to add the "Burning" debuff, dealing fire magic damage at start of the creature's turn for 2 turns."
+[A_ImprovedTier1Spells_Ability H7HeroAbility]
+mName="Master of Fire I"
+mTooltip="Fire Bolt adds the "Burning" debuff, dealing fire magic damage at start of the creature's turn for 3 turns. Burning Determination targets all friendly creatures in an area of 3x3 tiles."
+[A_ImprovedTier2Spells_Ability H7HeroAbility]
+mName="Master of Fire II"
+mTooltip="Inner Fire targets all friendly creatures in an area of 3x3 tiles. The Fire Wall stops creatures moving into it."
+[A_ImprovedTier3Spells_Ability H7HeroAbility]
+mName="Master of Fire III"
+mTooltip="Random attacks through Frenzy prefer enemy creatures over friendly creatures. Fire Ball adds the "Burning" debuff, dealing fire magic damage at start of the creature's turn for 3 turns."
+[A_PassionateCaster_Ability H7HeroAbility]
+mName="Passionate Caster"
+mTooltip="+1 might value per fire spell cast until end of combat. Capped at +5."
+[A_PassionateCaster_Buff_Might H7BaseBuff]
+mName="Rock Solid"
+mTooltip="+ %stat defense until the end of combat."
+[A_Pyromania_Ability H7HeroAbility]
+mName="Pyromania"
+mTooltip="Every time an adjacent creature receives fire magic damage, the creature's morale is increased by 5 until end of their next turn."
+[A_Pyromania_Buff_FriendlyCreatures H7BaseBuff]
+mName="Pyromania"
+[A_Pyromania_Buff_HostileCreatures H7BaseBuff]
+mName="Pyromania"
+[A_Pyromania_Buff_MoraleIncrease H7BaseBuff]
+mName="Pyromania"
+mTooltip="The creature gets +%e morale."
+[A_RepellingFlames_Ability H7HeroAbility]
+mName="Repelling Flames"
+mTooltip="Moving in the Fire Wall stops non-flying creatures."

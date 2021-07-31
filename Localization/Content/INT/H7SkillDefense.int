@@ -1,0 +1,120 @@
+[A_Alertness_Buff H7BaseBuff]
+mName="Alertness"
+mTooltip="The creature's flanking and full flanking damage bonuses are decreased by %stat.norm percentage points."
+
+[A_Vitality_Ability H7HeroAbility]
+mTooltipMagicGuild=""
+mTooltipMagicGuildRankLine=""
+mTooltipUpgraded=""
+mName="Vitality"
+mTooltip="%buff1.buff.stat Health for friendly creatures during combat."
+
+[A_Evasion_CreatureAbility H7CreatureAbility]
+mTooltipMagicGuild=""
+mTooltipMagicGuildRankLine=""
+mTooltipUpgraded=""
+mName=""
+mTooltip=""
+
+[A_PerfectDefense_Ability H7HeroAbility]
+mTooltipMagicGuild=""
+mTooltipMagicGuildRankLine=""
+mTooltipUpgraded=""
+mName="Perfect Defence"
+mTooltip="Friendly creatures ignore 20% of enemies %ICON_ATTACK Attack."
+
+[A_DefensiveStance_Ability H7HeroAbility]
+mTooltipMagicGuild=""
+mTooltipMagicGuildRankLine=""
+mTooltipUpgraded=""
+mName="Defensive Stance"
+mTooltip="If a friendly creature did not attack or use an active ability during its normal turn or Morale turn it gets %spell1.spell.buff1.buff.stat1 %ICON_DEFENSE Defence until the start of its next turn."
+
+[A_PerfectDefense_Buff H7BaseBuff]
+mName="Perfect Defence"
+mTooltip=""
+
+[A_PerfectDefense_CreatureAbility H7CreatureAbility]
+mTooltipMagicGuild=""
+mTooltipMagicGuildRankLine=""
+mTooltipUpgraded=""
+mName=""
+mTooltip=""
+
+[A_PreemptiveStrike_Buff H7BaseBuff]
+mName="Preemptive Strike"
+mTooltip="The creature has %stat %stat.icon Attack and executes its retaliation before the actual attack of a creature attacking it."
+
+[A_TownProtector_Buff H7BaseBuff]
+mName="Town Protector"
+mTooltip="%stat %stat.icon Defense in this town's area of control"
+
+[A_PreemptiveStrike_Ability H7HeroAbility]
+mTooltipMagicGuild=""
+mTooltipMagicGuildRankLine=""
+mTooltipUpgraded=""
+mName="Preemptive Strike"
+mTooltip="A friendly creature that used the defend action will retaliate preemptively with +6 %ICON_ATTACK Attack until the start of its next turn"
+
+[A_Defense_Skill H7Skill]
+mDescriptions[0]="Increases the hero's %ICON_DEFENSE Defence."
+mDescriptions[1]=""
+mDescriptions[2]="Increases the hero's %ICON_DEFENSE Defence by %stat1.norm."
+mDescriptions[3]="Increases the hero's %ICON_DEFENSE Defence by additional %stat1.norm."
+mDescriptions[4]="Increases the hero's %ICON_DEFENSE Defence by additional %stat1.norm."
+mName="Defence"
+mTooltip="Defense Skill Tooltip"
+
+[A_DefensiveStance_CreatureAbility H7CreatureAbility]
+mTooltipMagicGuild=""
+mTooltipMagicGuildRankLine=""
+mTooltipUpgraded=""
+mName=""
+mTooltip=""
+
+[A_Vitality_Buff H7BaseBuff]
+mName="Vitality"
+mTooltip=""
+
+[A_DefensiveStance_Buff_Marker H7BaseBuff]
+mName=""
+mTooltip=""
+
+[A_PreemptiveStrike_CreatureAbility H7CreatureAbility]
+mTooltipMagicGuild=""
+mTooltipMagicGuildRankLine=""
+mTooltipUpgraded=""
+mName="Preemptive Strike (origin: hero ability)"
+mTooltip=""
+
+[A_Alertness_Ability H7HeroAbility]
+mTooltipMagicGuild=""
+mTooltipMagicGuildRankLine=""
+mTooltipUpgraded=""
+mName="Alertness"
+mTooltip="Enemy creatures' flanking and full flanking damage bonuses are decreased by %buff1.buff.stat.norm percentage points."
+
+[A_TownProtector_Ability H7HeroAbility]
+mTooltipMagicGuild=""
+mTooltipMagicGuildRankLine=""
+mTooltipUpgraded=""
+mName="Town Protector"
+mTooltip="Governor: All heroes in this town's area of control get %buff1.buff.stat %buff1.buff.stat.icon Defense."
+
+[A_DefensiveStance_Buff_DefenseIncrease H7BaseBuff]
+mName="Defensive Stance"
+mTooltip="%stat1 %ICON_DEFENSE Defence until the start of the creature's next turn."
+
+[A_Evasion_Ability H7HeroAbility]
+mTooltipMagicGuild=""
+mTooltipMagicGuildRankLine=""
+mTooltipUpgraded=""
+mName="Evasion"
+mTooltip="Friendly creatures get %spell1.spell.special.val1 %ICON_DEFENSE Defence against ranged attacks."
+
+[A_FlankDefense_Ability H7HeroAbility]
+mName="Alertness"
+mTooltip="Enemy creatures' flanking and full flanking bonus percentages are decreased by 25% points."
+[A_FlankDefense_Buff H7BaseBuff]
+mName="Alertness"
+mTooltip="This creatures' flanking and full flanking bonus are decreased by 25."

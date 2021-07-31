@@ -1,0 +1,171 @@
+[Imprinted.A_Fortune_Imprinted_Buff H7BaseBuff]
+mName="Fortune"
+mTooltip="%stat %stat.icon Luck\nLasts for %durnow turn(s)."
+
+[Imprinted.A_InstantRecall_Imprinted H7HeroAbility]
+mName="Instant Recall"
+mTooltip="Teleports the hero and his army to the nearest friendly town with a Town Portal, instantly."
+
+[A_TimeControl_FromCreature_Buff_Slow_Elite H7BaseBuff]
+mName="Time Control - Slow"
+mTooltip="%stat %stat.icon Initiative\nLasts for %durnow turn(s)."
+
+[A_TimeControl_Buff_Slow H7BaseBuff]
+mName="Time Control - Slow"
+mTooltip="%stat1 %stat.icon1 Initiative %stat2 %stat2.icon Movement\nLasts for %durnow turn(s)."
+
+[A_Implosion H7HeroAbility]
+mTooltipMagicGuild="Deals %d.min %d.icon Prime damage. Creatures within 3 tiles around the target are pulled towards it, instantly."
+mTooltipMagicGuildRankLine="%d.min"
+mName="Implosion"
+mTooltip="Deals %d.min %d.icon Prime damage and pulls all creatures within 3 tiles around the target towards it, instantly."
+
+[Imprinted.A_TimeControl_Imprinted H7HeroAbility]
+mTooltipMagicGuild="Increases the %buff1.buff.stat.icon Initiative of the target friendly creature and decreases the %buff2.buff.stat.icon Initiative of the target enemy creature for %buff1.buff.durini turns."
+mTooltipUpgraded="Affects the %buff1.buff.stat.icon Inititative of all creatures in the target 4x4 area: Increases the %buff1.buff.stat.icon Initiative of friendly creatures by %buff1.buff.stat.norm and decreases the %buff2.buff.stat.icon Initiative of enemy creatures by %buff2.buff.stat.norm for %buff1.buff.durini turns."
+mName="Time Control"
+mTooltip="Increases the %buff1.buff.stat.icon Initiative of the target friendly creature by %buff1.buff.stat.norm or decreases the %buff2.buff.stat.icon Initiative of the target enemy creature by %buff2.buff.stat.norm for %buff1.buff.durini turns."
+
+[Imprinted.A_SoulConflagration_Imprinted H7HeroAbility]
+mName="Soul Conflagration"
+mTooltip="All enemy creatures in target 4x4 area get %d.min %icon_prime Prime damage and additional %special of that amount for every friendly creature stack in the area as prime damage."
+
+[A_TimeControl_Buff_Fast H7BaseBuff]
+mName="Time Control - Haste"
+mTooltip="%stat1 %stat1.icon Initiative %stat2 %stat2.icon Movement \nLasts for %durnow turn(s)."
+
+[A_SummonElemental_Buff_WeekOfElementals H7BaseBuff]
+mName="Week of Elementals"
+mTooltip="Summoned stack size is increased by %special1."
+
+[Imprinted.A_Implosion_Imprinted H7HeroAbility]
+mName="Implosion"
+mTooltip="Deals %d + 15% of the target creature stack's total Health as %d.icon Prime damage and pulls all creatures within 3 tiles around the target towards it, instantly."
+
+[A_Fortune_Buff H7BaseBuff]
+mName="Fortune"
+mTooltip="%stat %stat.icon Luck\nLasts for %durnow turn(s)."
+
+[A_Fortune H7HeroAbility]
+mTooltipMagicGuild="Increases the %buff.buff.stat.icon Luck of the target friendly creature for %buff.buff.durini turns."
+mTooltipMagicGuildRankLine="%buff.buff.stat %ICON_LUCK Luck"
+mTooltipUpgraded="Increases the %buff.buff.stat.icon Luck of all friendly creatures by %buff.buff.stat.norm for %buff.buff.durini turns."
+mName="Fortune"
+mTooltip="Increases the %buff.buff.stat.icon Luck of the target friendly creature by %buff.buff.stat.norm for %buff.buff.durini turns."
+
+[A_InstantReinforcements H7HeroAbility]
+mName="Instant Reinforcements"
+mTooltip="Teleports selected creatures from the nearest friendly town with a Town Portal to the hero, instantly. The mana cost is based on the number of creatures to be teleported. Does not work between surface and underground."
+
+[Imprinted.A_Implosion_Imprinted_Artifact H7HeroAbility]
+mName="Implosion"
+mTooltip="Deals %d of the target creature stack's total Health as %d.icon Prime damage and pulls all creatures within 3 tiles around the target towards it, instantly."
+
+[A_TimeStasis_Buff H7BaseBuff]
+mName="Time Stasis"
+mTooltip="Target creature cannot act and is treated as if not present, %name cannot be dispelled.\nLasts for %durnow turns."
+
+[A_TimeStasis_Buff_Upgraded H7BaseBuff]
+mName="Time Stasis"
+mTooltip="Target creature cannot act and is treated as if not present, %name cannot be dispelled. Deals %d.min %ICON_PRIME damage when expiring.\nLasts for %durnow turns."
+
+[A_InstantRecall H7HeroAbility]
+mName="Instant Recall"
+mTooltip="Teleports the hero and his army to the nearest friendly town with a Town Portal, instantly."
+
+[Imprinted.A_SummonElemental_Imprinted_Artifact H7HeroAbility]
+mName="Summon Elemental"
+mTooltip="Summons %special.val1 random elementals on the target 2x2 area, instantly."
+
+[A_SummonElemental_Buff H7BaseBuff]
+mName="Summon Elemental Echo"
+mTooltip="If the creature is still alive at the beginning of the next combat round it will be reinforced by %special1 of the initially summoned number of elementals."
+
+[A_Implosion_Buff H7BaseBuff]
+mName="Implosion Echo"
+mTooltip="At the beginning of the next combat round the Implosion spell is applied to the creature a second time, dealing %d +15% of creature's current total Health as %d.icon Prime damage."
+
+[Imprinted.A_SummonElemental_Imprinted H7HeroAbility]
+mName="Summon Elemental"
+mTooltip="Summons %special.val1 random elementals on the target 2x2 area, instantly."
+
+[A_TimeStasis H7HeroAbility]
+mTooltipMagicGuild="Target creature cannot act and is treated as if not present, %buff1.buff.name cannot be dispelled.\nLasts for %buff1.buff.durini turns."
+mTooltipMagicGuildRankLine="%special1 %ICON_MANA Mana casting costs"
+mTooltipUpgraded="Target creature cannot act and is treated as if not present, %buff1.buff.name cannot be dispelled. Deals %buff2.buff.d.min %ICON_PRIME Damage when expiring.\nLasts for %buff1.buff.durini turns."
+mName="Time Stasis"
+mTooltip="Target creature cannot act and is treated as if not present, %buff.name cannot be dispelled.\nLasts for %buff1.buff.durini turns."
+
+[Imprinted.A_DispelMagic_Imprinted H7HeroAbility]
+mName="Dispel Magic"
+mTooltip="Removes all magical effects from the target creature, instantly."
+
+[Imprinted.A_Fortune_Imprinted H7HeroAbility]
+mName="Fortune"
+mTooltip="Increases the %buff.buff.stat.icon Luck of the target friendly creature by %buff.buff.stat.norm for %buff.buff.durini turns."
+
+[A_SoulConflagration H7HeroAbility]
+mTooltipMagicGuild="All enemy creatures in target 4x4 area get Prime damage and an additional percentage of that amount for every friendly creature stack in the area as prime damage."
+mTooltipMagicGuildRankLine="%d.min %icon_prime Prime damage and additional %special per friendly creature."
+mName="Soul Conflagration"
+mTooltip="All enemy creatures in target 4x4 area get %d.min %icon_prime Prime damage and additional %special of that amount for every friendly creature stack in the area as prime damage."
+
+[A_Teleport_Buff H7BaseBuff]
+mName="Time Jump"
+mTooltip="%stat %stat.icon Initiative.\nLasts for %durnow turn(s)."
+
+[A_TimeControl H7HeroAbility]
+mTooltipMagicGuild="Increases the %buff1.buff.stat1.icon Initiative and %buff1.buff.stat2.icon Movement of the target friendly creature or decreases the %buff2.buff.stat.icon Initiative and %buff2.buff.stat2.icon Movement of the target enemy creature for %buff1.buff.durini turns."
+mTooltipMagicGuildRankLine="±%buff1.buff.stat1.norm %ICON_INITIATIVE Initiative and ±%buff1.buff.stat2 %ICON_MOVEMENT Movement"
+mTooltipUpgraded="Changes the %buff1.buff.stat2.icon Inititative and %buff1.buff.stat2.icon of all creatures on the battlefield: Friendly creatures get %buff1.buff.stat1 %buff1.buff.stat1.icon Initiative and %buff1.buff.stat2 %buff1.buff.stat2.icon Movement, while enemies receive %buff2.buff.stat1 %buff2.buff.stat1.icon Initiative and %buff2.buff.stat2 %buff2.buff.stat2.icon Movement for %buff1.buff.durini turns."
+mName="Time Control"
+mTooltip="Changes %buff1.buff.stat2.icon Inititative and %buff1.buff.stat2.icon of target creature on the battlefield: Friendly creature gets %buff1.buff.stat1 %buff1.buff.stat1.icon Initiative and %buff1.buff.stat2 %buff1.buff.stat2.icon Movement, while enemy receives %buff2.buff.stat1 %buff2.buff.stat1.icon Initiative and %buff2.buff.stat2 %buff2.buff.stat2.icon Movement for %buff1.buff.durini turns.
+
+[Imprinted.A_TimeControl_Imprinted_Buff_Fast H7BaseBuff]
+mName="Time Control - Haste"
+mTooltip="%stat %stat.icon Initiative\nLasts for %durnow turn(s)."
+
+[Imprinted.A_TimeControl_Imprinted_Buff_Slow H7BaseBuff]
+mName="Time Control - Slow"
+mTooltip="%stat %stat.icon Initiative\nLasts for %durnow turn(s)."
+
+[A_DispelMagic H7HeroAbility]
+mTooltipMagicGuild="Removes all buffs and debuffs from the target creature, instantly."
+mTooltipMagicGuildRankLine="%special6 %ICON_MANA Mana casting costs"
+mTooltipUpgraded="Removes all magical effects from all creatures in the target 3x3 area, instantly."
+mName="Dispel Magic"
+mTooltip="Removes all magical effects from the target creature, instantly."
+
+[A_SummonElemental H7HeroAbility]
+mTooltipMagicGuild="Summons random elementals on the combat map, instantly."
+mTooltipMagicGuildRankLine="%special1.val1 elementals"
+mTooltipUpgraded="Summons %special1.val1 random elementals on the target 2x2 area, instantly. At start of the next combat round %special9 of the initial summoned number of elementals are added."
+mName="Summon Elemental"
+mTooltip="Summons %special1.val1 random elementals on the target 2x2 area, instantly."
+
+
+[A_RevealTreasure H7HeroAbility]
+mName="Reveal Treasure"
+mTooltip="Reveals a Tear of Asha if it's hidden at the caster's position or 1 tile away from it. The spell consumes the remaining Movement of the hero."
+
+[A_TimeControl_FromCreature_Buff_Slow_Champion H7BaseBuff]
+mName="Time Control - Slow"
+mTooltip="%stat %stat.icon Initiative\nLasts for %durnow turn(s)."
+
+[Imprinted.A_TimeStasis_Imprinted H7HeroAbility]
+mName="Time Stasis"
+mTooltip="Target creature cannot act and is treated as if not present, %buff1.buff.name cannot be dispelled. Deals %d.min to %d.max ICON_PRIME damage when expiring.\nLasts until start of the next combat round."
+
+UCP 1.2
+
+[A_Teleport H7HeroAbility]
+mTooltipMagicGuild="Teleports the target friendly creature to a free position within a certain distance, instantly."
+mTooltipMagicGuildRankLine="in a distance of %special"
+mTooltipUpgraded="Teleports the target friendly creature to a free position within a distance of %special instantly, and increases its %buff1.buff.stat.icon Initiative by %buff1.buff.stat.norm for %buff1.buff.durini turn(s). The creature also becomes immune "
+mName="Teleport"
+mTooltip="Teleports the target friendly creature to a free position within a distance of %special, instantly."
+
+[Imprinted.A_Teleport_Imprinted H7HeroAbility]
+mName="Teleport"
+mTooltip="Teleports the target friendly creature to a free position within a distance of %special, instantly."
+
