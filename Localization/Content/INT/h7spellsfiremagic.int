@@ -168,7 +168,7 @@ mTooltip="Summon a 1x1 Fire Sentry with %special.val1 health on target empty til
 [A_FireWall H7HeroAbility]
 mTooltipMagicGuild="Creates a Fire wall on the target 1x5 area for %durini combat rounds. It deals %ICON_FIRE Fire damage to all creatures in the area at the start of their turn and to creatures moving through."
 mTooltipMagicGuildRankLine="%buff1.buff.d1.min to %buff1.buff.d1.max %buff1.buff.d1.icon"
-mTooltipUpgraded="Creates a Fire Wall on the target 1x5 area for %durini combat rounds. It deals %buff1.buff.d1.min to %buff1.buff.d1.max %buff1.buff.d1.icon Fire damage to all creatures in the area at the start of their turn. It also stops creatures' movement and they suffer %buff3.buff.d.min to %buff3.buff.d.max %ICON_FIRE Fire damage over %buff3.buff.durini turns."
+mTooltipUpgraded="Creates a Fire Wall on the target 1x5 area for %durini combat rounds. It deals %buff1.buff.d1.min to %buff1.buff.d1.max %buff1.buff.d1.icon Fire damage to all creatures in the area at the start of their turn. They also suffer %buff3.buff.d.min to %buff3.buff.d.max %ICON_FIRE Fire damage over %buff3.buff.durini turns."
 mName="Fire Wall"
 mTooltip="Creates a Fire wall on the target 1x5 area for %durini combat rounds. It deals %buff1.buff.d1.min to %buff1.buff.d1.max %buff1.buff.d1.icon Fire damage to all creatures in the area at the start of their turn and to creatures moving through."
 
