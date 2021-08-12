@@ -5,19 +5,19 @@ mTooltipUpgraded=""
 mName="Artillery Master"
 mTooltip="The hero starts with a warfare unit, the Warfare skill on novice rank and the %spell1.name ability."
 
-[CreatureGrowthBonus.A_OrcGeneral_Buff H7BaseBuff]
+[CreatureBonus.A_OrcGeneral_Buff H7BaseBuff]
 mName="Orc General"
 mTooltip=""
 
-[CreatureGrowthBonus.A_StalkerOfficer_Buff H7BaseBuff]
+[CreatureBonus.A_StalkerOfficer_Buff H7BaseBuff]
 mName="Stalker Officer"
 mTooltip=""
 
-[CreatureGrowthBonus.A_LichScholar_Buff H7BaseBuff]
+[CreatureBonus.A_LichScholar_Buff H7BaseBuff]
 mName="Lich Scholar"
 mTooltip=""
 
-[CreatureGrowthBonus.A_GnollChieftain_Buff H7BaseBuff]
+[CreatureBonus.A_GnollChieftain_Buff H7BaseBuff]
 mName="Gnoll Chieftain"
 mTooltip=""
 
@@ -25,7 +25,7 @@ mTooltip=""
 mName="Disciple of Light"
 mTooltip=""
 
-[CreatureGrowthBonus.A_JusticarCaptain_Buff H7BaseBuff]
+[CreatureBonus.A_JusticarCaptain_Buff H7BaseBuff]
 mName="Justicar Captain"
 mTooltip=""
 
@@ -43,7 +43,7 @@ mTooltipUpgraded=""
 mName="Painless"
 mTooltip="The hero has %stat %ICON_DEFENSE Defence."
 
-[CreatureGrowthBonus.A_CyclopsMaster_Buff H7BaseBuff]
+[CreatureBonus.A_CyclopsMaster_Buff H7BaseBuff]
 mName="Cyclops Master"
 mTooltip=""
 
@@ -54,12 +54,12 @@ mTooltipUpgraded=""
 mName="Imperial Presence"
 mTooltip="Hero starts with %stat1 %ICON_LEADERSHIP Leadership and %stat2 %ICON_DEFENSE Defence."
 
-[CreatureGrowthBonus.A_CabirLeader H7HeroAbility]
+[CreatureBonus.A_CabirLeader H7HeroAbility]
 mTooltipMagicGuild=""
 mTooltipMagicGuildRankLine=""
 mTooltipUpgraded=""
 mName="Cabir Leader"
-mTooltip="Governor: %buff1.buff.stat Cabir and Cabir Master growth in the town's area of control."
+mTooltip="Cabirs and Master Cabirs have %buff1.buff.stat1 attack %buff1.buff.stat3 %ICON_HEALTH Health, %buff1.buff.stat4 %ICON_INITIATIVe Initiative and %buff1.buff.stat5 %ICON_MOVEMENT Movement."
 
 [MightAbility.A_Catalyst H7HeroAbility]
 mTooltipMagicGuild=""
@@ -75,12 +75,12 @@ mTooltipUpgraded=""
 mName="Weakness Adept"
 mTooltip="The hero starts with the Dark magic skill on novice rank and the %spell1.name spell. This spell is cast one rank above the current rank in this magic school."
 
-[CreatureGrowthBonus.A_OrcGeneral H7HeroAbility]
+[CreatureBonus.A_OrcGeneral H7HeroAbility]
 mTooltipMagicGuild=""
 mTooltipMagicGuildRankLine=""
 mTooltipUpgraded=""
 mName="Orc General"
-mTooltip="Governor: %buff1.buff.stat Brute and Crusher growth in the town's area of control."
+mTooltip="Brutes and Crushers have %buff1.buff.stat1 %ICON_ATTACK Attack %buff1.buff.stat3 %ICON_HEALTH Health, %buff1.buff.stat4 %ICON_INITIATIVe Initiative and %buff1.buff.stat5 %ICON_MOVEMENT Movement."
 
 [MagicSchool.A_MasterOfFire_Buff H7BaseBuff]
 mName="Disciple of Fire"
@@ -89,22 +89,22 @@ mTooltip=""
 [CustomEffects.A_DelverOfTheRoyalPurse H7HeroAbility]
 mTooltipMagicGuild=""
 mTooltipMagicGuildRankLine=""
-mTooltipUpgraded=""
+mTooltipUpgraded=""S
 mName="Delver of the Royal Purse"
 mTooltip="The hero provides %special %special.icon Gold per day to this kingdom."
 
-[CreatureGrowthBonus.A_StriderBlacksmith H7HeroAbility]
+[CreatureBonus.A_StriderBlacksmith H7HeroAbility]
 mTooltipMagicGuild=""
 mTooltipMagicGuildRankLine=""
 mTooltipUpgraded=""
 mName="Strider Blacksmith"
-mTooltip="Governor: %buff1.buff.stat Strider and Soulless growth in the town's area of control."
+mTooltip="Striders and Soulless have %buff1.buff.stat1 damage, %buff1.buff.stat3 %ICON_HEALTH Health, %buff1.buff.stat4 %ICON_INITIATIVe Initiative and %buff1.buff.stat5 %ICON_MOVEMENT Movement."
 
 [UniqueSpecializations.A_FatherOfGolems_Buff_Golems H7BaseBuff]
 mName="Father of Golems"
 mTooltip=""
 
-[CreatureGrowthBonus.A_AssassinMentor_Buff H7BaseBuff]
+[CreatureBonus.A_AssassinMentor_Buff H7BaseBuff]
 mName="Assassin Mentor"
 mTooltip=""
 
@@ -115,12 +115,12 @@ mTooltipUpgraded=""
 mName="Disciple of Light"
 mTooltip="The hero has %stat %stat.icon Magic when casting Light spells."
 
-[CreatureGrowthBonus.A_LichScholar H7HeroAbility]
+[CreatureBonus.A_LichScholar H7HeroAbility]
 mTooltipMagicGuild=""
 mTooltipMagicGuildRankLine=""
 mTooltipUpgraded=""
 mName="Lich Scholar"
-mTooltip="Governor: %buff1.buff.stat Lich and Archlich growth in the town's area of control."
+mTooltip="Liches and Archliches have %buff1.buff.stat1 damage, %buff1.buff.stat3 %ICON_HEALTH Health, %buff1.buff.stat4 %ICON_INITIATIVe Initiative and %buff1.buff.stat5 %ICON_MOVEMENT Movement."
 
 [SpellSpecialization.A_StoneSkinMaster H7HeroAbility]
 mTooltipMagicGuild=""
@@ -129,12 +129,12 @@ mTooltipUpgraded=""
 mName="Stone Skin Adept"
 mTooltip="The hero starts with the Earth magic skill on novice rank and the %spell1.name spell. This spell is cast one rank above the current rank in this magic school."
 
-[CreatureGrowthBonus.A_StalkerOfficer H7HeroAbility]
+[CreatureBonus.A_StalkerOfficer H7HeroAbility]
 mTooltipMagicGuild=""
 mTooltipMagicGuildRankLine=""
 mTooltipUpgraded=""
 mName="Stalker Officer"
-mTooltip="Governor: %buff1.buff.stat Stalker and Tracker growth in the town's area of control."
+mTooltip="Stalkers and Trackers have %buff1.buff.stat1 %ICON_ATTACK Attack, %buff1.buff.stat3 %ICON_HEALTH Health, %buff1.buff.stat4 %ICON_INITIATIVe Initiative and %buff1.buff.stat5 %ICON_MOVEMENT Movement."
 
 [MagicSchool.A_MasterOfFire H7HeroAbility]
 mTooltipMagicGuild=""
@@ -143,12 +143,12 @@ mTooltipUpgraded=""
 mName="Disciple of Fire"
 mTooltip="The hero has %stat %stat.icon Magic when casting Fire spells."
 
-[CreatureGrowthBonus.A_JusticarCaptain H7HeroAbility]
+[CreatureBonus.A_JusticarCaptain H7HeroAbility]
 mTooltipMagicGuild=""
 mTooltipMagicGuildRankLine=""
 mTooltipUpgraded=""
 mName="Justicar Captain"
-mTooltip="Governor: %buff1.buff.stat Guardian and Justicar growth in the town's area of control."
+mTooltip="Justicars and Guardians have %buff1.buff.stat1 damage, %buff1.buff.stat3 %ICON_HEALTH Health, %buff1.buff.stat4 %ICON_INITIATIVe Initiative and %buff1.buff.stat5 %ICON_MOVEMENT Movement."
 
 [CreatureGrowthBonus.A_GolemBuilder H7HeroAbility]
 mTooltipMagicGuild=""
@@ -157,7 +157,7 @@ mTooltipUpgraded=""
 mName="Golem Builder"
 mTooltip="Governor: %buff1.buff.stat Golem and Sandstone Golem growth in the town's area of control."
 
-[CreatureGrowthBonus.A_CabirLeader_Buff H7BaseBuff]
+[CreatureBonus.A_CabirLeader_Buff H7BaseBuff]
 mName="Cabir Leader"
 mTooltip=""
 
@@ -204,7 +204,7 @@ mTooltipUpgraded=""
 mName="Archery Master"
 mTooltip="The hero starts with the Offense skill on novice rank and the %spell1.name ability."
 
-[CreatureGrowthBonus.A_MinotaurGeneral_Buff H7BaseBuff]
+[CreatureBonus.A_MinotaurGeneral_Buff H7BaseBuff]
 mName="Minotaur General"
 mTooltip=""
 
@@ -215,12 +215,12 @@ mTooltipUpgraded=""
 mName="Disciple of Water"
 mTooltip="The hero has %stat %stat.icon Magic when casting Water spells."
 
-[CreatureGrowthBonus.A_MinotaurGeneral H7HeroAbility]
+[CreatureBonus.A_MinotaurGeneral H7HeroAbility]
 mTooltipMagicGuild=""
 mTooltipMagicGuildRankLine=""
 mTooltipUpgraded=""
 mName="Minotaur General"
-mTooltip="Governor: %buff1.buff.stat Minotaur and Minotaur Guard growth in the town's area of control."
+mTooltip="Minotaurs and Minotaur Guards have %buff1.buff.stat1 damage, %buff1.buff.stat3 %ICON_HEALTH Health, %buff1.buff.stat4 %ICON_INITIATIVe Initiative and %buff1.buff.stat5 %ICON_MOVEMENT Movement."
 
 [UniqueSpecializations.A_SeaWarfare H7HeroAbility]
 mTooltipMagicGuild=""
@@ -236,19 +236,19 @@ mTooltipUpgraded=""
 mName="Disciple of Earth"
 mTooltip="The hero has %stat %stat.icon Magic when casting Earth spells."
 
-[CreatureGrowthBonus.A_CentaurChieftain H7HeroAbility]
+[CreatureBonus.A_CentaurChieftain H7HeroAbility]
 mTooltipMagicGuild=""
 mTooltipMagicGuildRankLine=""
 mTooltipUpgraded=""
 mName="Centaur Chieftain"
-mTooltip="Governor: %buff1.buff.stat Centaur and Centaur Marauder growth in the town's area of control."
+mTooltip="Centaurs and Centaur Marauders have %buff1.buff.stat1 damage, %buff1.buff.stat3 %ICON_HEALTH Health, %buff1.buff.stat4 %ICON_INITIATIVe Initiative and %buff1.buff.stat5 %ICON_MOVEMENT Movement."
 
-[CreatureGrowthBonus.A_AssassinMentor H7HeroAbility]
+[CreatureBonus.A_AssassinMentor H7HeroAbility]
 mTooltipMagicGuild=""
 mTooltipMagicGuildRankLine=""
 mTooltipUpgraded=""
 mName="Assassin Mentor"
-mTooltip="Governor: %buff1.buff.stat Assassin and Shade growth in the town's area of control."
+mTooltip="Assassins and Shades have %buff1.buff.stat1 %ICON_ATTACK Attack %ICON_ATTACK, %buff1.buff.stat3 %ICON_HEALTH Health, %buff1.buff.stat4 %ICON_INITIATIVe Initiative and %buff1.buff.stat5 %ICON_MOVEMENT Movement."
 
 [MightAbility.A_Plenipotentiary H7HeroAbility]
 mTooltipMagicGuild=""
@@ -257,12 +257,12 @@ mTooltipUpgraded=""
 mName="Plenipotentiary"
 mTooltip="The hero starts with the Diplomacy skill on novice rank and the %spell1.name ability."
 
-[CreatureGrowthBonus.A_RakshasaOfficer H7HeroAbility]
+[CreatureBonus.A_RakshasaOfficer H7HeroAbility]
 mTooltipMagicGuild=""
 mTooltipMagicGuildRankLine=""
 mTooltipUpgraded=""
 mName="Rakshasa Officer"
-mTooltip="Governor: %buff1.buff.stat Rakshasa and Rakshasa Raja growth in the town's area of control."
+mTooltip="Rakshasas and Rakshasas Rajas have %buff1.buff.stat1 damage, %buff1.buff.stat3 %ICON_HEALTH Health, %buff1.buff.stat4 %ICON_INITIATIVe Initiative and %buff1.buff.stat5 %ICON_MOVEMENT Movement."
 
 [UniqueSpecializations.A_SoulvenomAura H7HeroAbility]
 mTooltipMagicGuild=""
@@ -282,7 +282,7 @@ mTooltipUpgraded=""
 mName="Spirit Walker"
 mTooltip="The hero has %stat1 %stat1.icon maximum Mana."
 
-[CreatureGrowthBonus.A_StriderBlacksmith_Buff H7BaseBuff]
+[CreatureBonus.A_StriderBlacksmith_Buff H7BaseBuff]
 mName="Strider Blacksmith"
 mTooltip=""
 
@@ -293,8 +293,8 @@ mTooltipUpgraded=""
 mName="Chain Lightning Specialist"
 mTooltip="The hero starts with the %spell1.name spell and can cast it on Novice rank with %stat1 %ICON_MAGIC Magic.\n%stat2 %ICON_MAGIC Magic when casting %spell1.name on Expert rank.\n%stat3 %ICON_MAGIC Magic when casting %spell1.name on Master rank."
 
-[CreatureGrowthBonus.A_VampireGeneral_Buff H7BaseBuff]
-mName="JusticarCaptain"
+[CreatureBonus.A_VampireGeneral_Buff H7BaseBuff]
+mName="Vampire General"
 mTooltip=""
 
 [SpellSpecialization.A_FireBoltMaster H7HeroAbility]
@@ -304,23 +304,23 @@ mTooltipUpgraded=""
 mName="Fire Bolt Adept"
 mTooltip="The hero starts with the Fire magic skill on novice rank and the %spell1.name spell. This spell is cast one rank above the current rank in this magic school."
 
-[CreatureGrowthBonus.A_SpiderTamer H7HeroAbility]
+[CreatureBonus.A_SpiderTamer H7HeroAbility]
 mTooltipMagicGuild=""
 mTooltipMagicGuildRankLine=""
 mTooltipUpgraded=""
 mName="Spider Tamer"
-mTooltip="Governor: %buff1.buff.stat Ebon Spider and Death Spider growth in the town's area of control."
+mTooltip="Death Spiders and Ebon Spiders have %buff1.buff.stat1 %ICON_ATTACK Attack %buff1.buff.stat3 %ICON_HEALTH Health, %buff1.buff.stat4 %ICON_INITIATIVe Initiative and %buff1.buff.stat5 %ICON_MOVEMENT Movement."
 
 [CreatureGrowthBonus.A_GolemBuilder_Buff H7BaseBuff]
 mName="Golem Builder"
 mTooltip=""
 
-[CreatureGrowthBonus.A_CavalryOfficer H7HeroAbility]
+[CreatureBonus.A_CavalryOfficer H7HeroAbility]
 mTooltipMagicGuild=""
 mTooltipMagicGuildRankLine=""
 mTooltipUpgraded=""
 mName="Cavalry Officer"
-mTooltip="Governor: %buff1.buff.stat Cavalier and Cuirassier growth in the town's area of control."
+mTooltip="Cavaliers and Cuirassiers have %buff1.buff.stat1 damage, %buff1.buff.stat3 %ICON_HEALTH Health, %buff1.buff.stat4 %ICON_INITIATIVe Initiative and %buff1.buff.stat5 %ICON_MOVEMENT Movement."
 
 [UniqueSpecializations.A_FatherOfGolems_Buff_Gargoyles H7BaseBuff]
 mName="Father of Golems"
@@ -340,7 +340,7 @@ mTooltipUpgraded=""
 mName="Master Builder"
 mTooltip="The hero starts with the Economy skill on novice rank and the %spell1.name ability."
 
-[CreatureGrowthBonus.A_PixieEnchanter_Buff H7BaseBuff]
+[CreatureBonus.A_PixieEnchanter_Buff H7BaseBuff]
 mName="Pixie Enchanter"
 mTooltip=""
 
@@ -351,12 +351,12 @@ mTooltipUpgraded=""
 mName="Backstab"
 mTooltip="Friendly creatures' full flanking damage bonus is increased by %buff1.buff.stat.norm percentage points."
 
-[CreatureGrowthBonus.A_VampireGeneral H7HeroAbility]
+[CreatureBonus.A_VampireGeneral H7HeroAbility]
 mTooltipMagicGuild=""
 mTooltipMagicGuildRankLine=""
 mTooltipUpgraded=""
 mName="Vampire General"
-mTooltip="Governor: %buff1.buff.stat Vampire and Vampire Lord growth in the town's area of control."
+mTooltip="Vampires and Vampire Lords have %buff1.buff.stat1 damage, %buff1.buff.stat3 %ICON_HEALTH Health, %buff1.buff.stat4 %ICON_INITIATIVe Initiative and %buff1.buff.stat5 %ICON_MOVEMENT Movement."
 
 [MightAbility.A_Frenzy H7HeroAbility]
 mTooltipMagicGuild=""
@@ -365,12 +365,12 @@ mTooltipUpgraded=""
 mName="Frenzy"
 mTooltip="The hero starts with the Offense skill on novice rank and the %spell1.name ability."
 
-[CreatureGrowthBonus.A_PixieEnchanter H7HeroAbility]
+[CreatureBonus.A_PixieEnchanter H7HeroAbility]
 mTooltipMagicGuild=""
 mTooltipMagicGuildRankLine=""
 mTooltipUpgraded=""
 mName="Pixie Enchanter"
-mTooltip="Governor: %buff1.buff.stat Pixie and Sprite growth in the town's area of control."
+mTooltip="Pixies and Sprites have %buff1.buff.stat1 Attack %ICON_ATTACK %buff1.buff.stat3 %ICON_HEALTH Health, %buff1.buff.stat4 %ICON_INITIATIVe Initiative and %buff1.buff.stat5 %ICON_MOVEMENT Movement.
 
 [UniqueSpecializations.A_NamtaruCaller_SupportAbility H7WarfareAbility]
 mTooltipMagicGuild=""
@@ -390,20 +390,20 @@ mTooltipUpgraded=""
 mName="Seafarer"
 mTooltip="The hero starts with the Exploration skill on novice rank and the %spell1.name ability."
 
-[CreatureGrowthBonus.A_RakshasaOfficer_Buff H7BaseBuff]
+[CreatureBonus.A_RakshasaOfficer_Buff H7BaseBuff]
 mName="Rakshasa Officer"
 mTooltip=""
 
-[CreatureGrowthBonus.A_GhostCaller_Buff H7BaseBuff]
+[CreatureBonus.A_GhostCaller_Buff H7BaseBuff]
 mName="Ghost Caller"
 mTooltip=""
 
-[CreatureGrowthBonus.A_BladeDancerLeader H7HeroAbility]
+[CreatureBonus.A_BladeDancerLeader H7HeroAbility]
 mTooltipMagicGuild=""
 mTooltipMagicGuildRankLine=""
 mTooltipUpgraded=""
 mName="Blade Dancer Leader"
-mTooltip="Governor: %buff1.buff.stat Blade Dancer and Blade Master growth in the town's area of control."
+mTooltip="Blade Dancers and Blade Masters have %buff1.buff.stat1 damage, %buff1.buff.stat3 %ICON_HEALTH Health, %buff1.buff.stat4 %ICON_INITIATIVe Initiative and %buff1.buff.stat5 %ICON_MOVEMENT Movement."
 
 [UniqueSpecializations.A_NamtaruCaller_2 H7HeroAbility]
 mTooltipMagicGuild=""
@@ -451,14 +451,14 @@ mTooltipUpgraded=""
 mName="Gladiator"
 mTooltip="The hero has %stat %stat.icon Might."
 
-[CreatureGrowthBonus.A_DryadConjurer H7HeroAbility]
+[CreatureBonus.A_DryadConjurer H7HeroAbility]
 mTooltipMagicGuild=""
 mTooltipMagicGuildRankLine=""
 mTooltipUpgraded=""
 mName="Dryad Conjurer"
-mTooltip="Governor: %buff1.buff.stat Dryad and Oak Dryad growth in the town's area of control."
+mTooltip="Dryads and Oak Dryads have %buff1.buff.stat1 Attack %ICON_ATTACK %buff1.buff.stat3 %ICON_HEALTH Health, %buff1.buff.stat4 %ICON_INITIATIVe Initiative and %buff1.buff.stat5 %ICON_MOVEMENT Movement."
 
-[CreatureGrowthBonus.A_CentaurChieftain_Buff H7BaseBuff]
+[CreatureBonus.A_CentaurChieftain_Buff H7BaseBuff]
 mName="Centaur Chieftain"
 mTooltip=""
 
@@ -487,12 +487,12 @@ mTooltipUpgraded=""
 mName="Namtaru Caller"
 mTooltip="The hero starts with a Namtaru unit. The Namtaru unit is considered maximum level for this hero."
 
-[CreatureGrowthBonus.A_ApprenticeTrainer H7HeroAbility]
+[CreatureBonus.A_ApprenticeTrainer H7HeroAbility]
 mTooltipMagicGuild=""
 mTooltipMagicGuildRankLine=""
 mTooltipUpgraded=""
 mName="Apprentice Trainer"
-mTooltip="Governor: %buff1.buff.stat Apprentice and Disciple growth in the town's area of control."
+mTooltip="Apprentices and Disciples have %buff1.buff.stat1 damage, %buff1.buff.stat3 %ICON_HEALTH Health, %buff1.buff.stat4 %ICON_INITIATIVe Initiative and %buff1.buff.stat5 %ICON_MOVEMENT Movement."
 
 [StartingAttributeIncrease.A_Spellweaver H7HeroAbility]
 mTooltipMagicGuild=""
@@ -508,11 +508,11 @@ mTooltipUpgraded=""
 mName="Disciple of Prime"
 mTooltip="The hero has %stat %stat.icon Magic when casting Prime spells."
 
-[CreatureGrowthBonus.A_CavalryOfficer_Buff H7BaseBuff]
+[CreatureBonus.A_CavalryOfficer_Buff H7BaseBuff]
 mName="Cavalry Officer"
 mTooltip=""
 
-[CreatureGrowthBonus.A_DryadConjurer_Buff H7BaseBuff]
+[CreatureBonus.A_DryadConjurer_Buff H7BaseBuff]
 mName="Dryad Conjurer"
 mTooltip=""
 
@@ -595,30 +595,30 @@ mTooltipUpgraded=""
 mName="Lightning Adept"
 mTooltip="The hero starts with the Air magic skill on novice rank and the %spell1.name spell. This spell is cast one rank above the current rank in this magic school."
 
-[CreatureGrowthBonus.A_SpiderTamer_Buff H7BaseBuff]
+[CreatureBonus.A_SpiderTamer_Buff H7BaseBuff]
 mName="Spider Tamer"
 mTooltip=""
 
-[CreatureGrowthBonus.A_GnollChieftain H7HeroAbility]
+[CreatureBonus.A_GnollChieftain H7HeroAbility]
 mTooltipMagicGuild=""
 mTooltipMagicGuildRankLine=""
 mTooltipUpgraded=""
 mName="Gnoll Chieftain"
-mTooltip="Governor: %buff1.buff.stat Gnoll and Gnoll Hunter growth in the town's area of control."
+mTooltip="Gnolls and Gnoll Hunters have %buff1.buff.stat1 %ICON_ATTACK Attack %buff1.buff.stat3 %ICON_HEALTH Health, %buff1.buff.stat4 %ICON_INITIATIVe Initiative and %buff1.buff.stat5 %ICON_MOVEMENT Movement."
 
 [CreatureGrowthBonus.A_ApprenticeTrainer_Buff H7BaseBuff]
 mName="Apprentice Trainer"
 mTooltip=""
 
-[CreatureGrowthBonus.A_BladeDancerLeader_Buff H7BaseBuff]
+[CreatureBonus.A_BladeDancerLeader_Buff H7BaseBuff]
 mName="Blade Dancer Leader"
 mTooltip=""
 
-[CreatureGrowthBonus.A_DruidGrandMaster_Buff H7BaseBuff]
+[CreatureBonus.A_DruidGrandMaster_Buff H7BaseBuff]
 mName="Druid Grand Master"
 mTooltip=""
 
-[CreatureGrowthBonus.A_BeastTamer_Buff H7BaseBuff]
+[CreatureBonus.A_BeastTamer_Buff H7BaseBuff]
 mName="Beast Tamer"
 mTooltip=""
 
@@ -640,12 +640,12 @@ mTooltipUpgraded=""
 mName="Disciple of Darkness"
 mTooltip="The hero has %stat %stat.icon Magic when casting Dark spells."
 
-[CreatureGrowthBonus.A_CyclopsMaster H7HeroAbility]
+[CreatureBonus.A_CyclopsMaster H7HeroAbility]
 mTooltipMagicGuild=""
 mTooltipMagicGuildRankLine=""
 mTooltipUpgraded=""
 mName="Cyclops Master"
-mTooltip="%buff.buff.stat1 %buff.buff.stat1.icon Attack and %buff.buff.stat2 %ICON_DEFENSE Defence for Cyclops and Enraged Cyclops in the hero's army."
+mTooltip="Cyclops and Enraged Cyclops have %buff1.buff.stat1 damage, %buff1.buff.stat3 %ICON_HEALTH Health, %buff1.buff.stat4 %ICON_INITIATIVe Initiative and %buff1.buff.stat5 %ICON_MOVEMENT Movement."
 
 [MightAbility.A_Tactician H7HeroAbility]
 mTooltipMagicGuild=""
@@ -672,12 +672,12 @@ mTooltip="Governor: %buff1.buff.stat Grim Rider and Grim Reaper growth in the to
 mName="Reaper of Souls"
 mTooltip=""
 
-[CreatureGrowthBonus.A_GhostCaller H7HeroAbility]
+[CreatureBonus.A_GhostCaller H7HeroAbility]
 mTooltipMagicGuild=""
 mTooltipMagicGuildRankLine=""
 mTooltipUpgraded=""
 mName="Ghost Caller"
-mTooltip="Governor: %buff1.buff.stat Ghost and Banshee growth in the town's area of control."
+mTooltip="Ghosts and Banshees have %buff1.buff.stat1 %ICON_ATTACK Attack %buff1.buff.stat3 %ICON_HEALTH Health, %buff1.buff.stat4 %ICON_INITIATIVe Initiative and %buff1.buff.stat5 %ICON_MOVEMENT Movement."
 
 [CreatureGrowthBonus.A_Centurion H7HeroAbility]
 mTooltipMagicGuild=""
@@ -690,19 +690,20 @@ mTooltip="Governor: %buff1.buff.stat Sentinel and Legionnaire growth in the town
 mName="Chosen of Death"
 mTooltip=""
 
-[CreatureGrowthBonus.A_DruidGrandMaster H7HeroAbility]
+[CreatureBonus.A_DruidGrandMaster H7HeroAbility]
 mTooltipMagicGuild=""
 mTooltipMagicGuildRankLine=""
 mTooltipUpgraded=""
 mName="Druid Grand Master"
-mTooltip="Governor: %buff1.buff.stat Druid and Druid Elder growth in the town's area of control."
+mTooltip="Druid and Druid Elders have %buff1.buff.stat1 damage, %buff1.buff.stat3 %ICON_HEALTH Health, %buff1.buff.stat4 %ICON_INITIATIVe Initiative and %buff1.buff.stat5 %ICON_MOVEMENT Movement."
 
-[CreatureGrowthBonus.A_BeastTamer H7HeroAbility]
+[CreatureBonus.A_BeastTamer H7HeroAbility]
 mTooltipMagicGuild=""
 mTooltipMagicGuildRankLine=""
 mTooltipUpgraded=""
 mName="Beast Tamer"
-mTooltip="Governor: %buff1.buff.stat Dire Wolf and Silverback growth in the town's area of control."
+mTooltip="Direwolves and Silverbacks have %buff1.buff.stat1 %ICON_ATTACK Attack, %buff1.buff.stat3 %ICON_HEALTH Health, %buff1.buff.stat4 %ICON_INITIATIVe Initiative and %buff1.buff.stat5 %ICON_MOVEMENT Movement."
+
 
 [UniqueSpecializations.A_SwordmastersCommander H7HeroAbility]
 mTooltipMagicGuild=""

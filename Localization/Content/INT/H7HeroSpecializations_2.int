@@ -45,20 +45,16 @@ mTooltip="Friendly living creatures regenerate %d.min Health at the end of each 
 mName="Chef"
 mTooltip=""
 
-[CustomEffects.A_FeralChild H7HeroAbility]
+[CreatureBonus.A_FeralChild H7HeroAbility]
 mTooltipMagicGuild=""
 mTooltipMagicGuildRankLine=""
 mTooltipUpgraded=""
 mName="Feral Child"
-mTooltip="The abilities of Bears and Black Bears in the hero's army trigger on both, being attacked in melee and on range."
+mTooltip="Bears and Black Bears have %buff1.buff.stat1 %ICON_ATTACK Attack, %buff1.buff.stat3 %ICON_HEALTH Health, %buff1.buff.stat4 %ICON_INITIATIVe Initiative and %buff1.buff.stat5 %ICON_MOVEMENT Movement."
 
-[CustomEffects.A_FeralChild_Buff_Bear H7BaseBuff]
+[CreatureBonus.A_FeralChild_Buff H7BaseBuff]
 mName="Feral Child"
 mTooltip="The Wild ability is also triggered when the creature is attacked on range."
-
-[CustomEffects.A_FeralChild_Buff_BlackBear H7BaseBuff]
-mName="Feral Child"
-mTooltip="The Wild ability is also triggered when the creature is attacked on range.\nThe Rage ability is also triggered when the unit is attacked on melee."
 
 [CustomEffects.A_FireHeart_Buff H7BaseBuff]
 mName="Fireheart"
@@ -111,14 +107,14 @@ mTooltipUpgraded=""
 mName="Insatiable Thirst"
 mTooltip="The Life Drain ability of Vampires and Vampire Lords in the hero's army regenerates 70% of the damage they deal as Health instead of half the damage."
 
-[CustomEffects.A_KoboldElder H7HeroAbility]
+[CreatureBonus.A_KoboldElder H7HeroAbility]
 mTooltipMagicGuild=""
 mTooltipMagicGuildRankLine=""
 mTooltipUpgraded=""
 mName="Kobold Elder"
-mTooltip="Kobold Scouts and Kobold Pathfinders in the hero's army have %buff.buff.stat1 %icon_destiny and %buff.buff.stat2 %icon_morale Morale."
+mTooltip="Kobold Scouts and Kobold Pathfinders have %buff1.buff.stat1 %ICON_ATTACK Attack %buff1.buff.stat3 %ICON_HEALTH Health, %buff1.buff.stat4 %ICON_INITIATIVe Initiative and %buff1.buff.stat5 %ICON_MOVEMENT Movement."
 
-[CustomEffects.A_KoboldElder_Buff H7BaseBuff]
+[CreatureBonus.A_KoboldElder_Buff H7BaseBuff]
 mName="Kobold Elder"
 mTooltip=""
 
@@ -143,16 +139,16 @@ mTooltipUpgraded=""
 mName="Rune Keeper"
 mTooltip="The auras of all friendly runes affect a 5x5 area."
 
-[CustomEffects.A_Shieldmaiden H7HeroAbility]
+[CreatureBonus.A_Shieldmaiden H7HeroAbility]
 mTooltipMagicGuild=""
 mTooltipMagicGuildRankLine=""
 mTooltipUpgraded=""
 mName="Shieldmaiden"
-mTooltip="Defenders and Shieldguards in the hero's army cannot get "Incapacitated" from any creature attack."
+mTooltip="Defenders and Shieldguards have %buff1.buff.stat1 %ICON_ATTACK Attack %buff1.buff.stat3 %ICON_HEALTH Health, %buff1.buff.stat4 %ICON_INITIATIVe Initiative and %buff1.buff.stat5 %ICON_MOVEMENT Movement."
 
-[CustomEffects.A_Shieldmaiden_Buff H7BaseBuff]
+[CreatureBonus.A_Shieldmaiden_Buff H7BaseBuff]
 mName="Shieldmaiden"
-mTooltip="The creature is immune against getting incapacitated."
+mTooltip=""
 
 [CustomEffects.A_SpiritChanneler H7HeroAbility]
 mTooltipMagicGuild=""
@@ -674,11 +670,11 @@ mTooltipMagicGuild=""
 mTooltipMagicGuildRankLine=""
 mTooltipUpgraded=""
 mName="Father of Golems"
-mTooltip="Abilities %spell1.name and %spell2.name of Sandstone Golems in hero's army have no negative effects."
+mTooltip="Golems, Sandstone Golems, Gargoyles and Obsidian Gargoyles have %buff1.buff.stat1 %ICON_ATTACK Attack %buff1.buff.stat3 %ICON_HEALTH Health, %buff1.buff.stat4 %ICON_INITIATIVe Initiative and %buff1.buff.stat5 %ICON_MOVEMENT Movement."
 
 [Unique.A_FatherOfGolems_Buff H7BaseBuff]
 mName="Father of Golems"
-mTooltip="Abilities %spell1.name and %spell2.name have no negative effects."
+mTooltip=""
 
 [Unique.A_Firestorm_Buff H7BaseBuff]
 mName="Firestorm"
