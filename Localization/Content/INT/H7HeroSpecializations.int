@@ -286,13 +286,6 @@ mTooltip="The hero has %stat1 %stat1.icon maximum Mana."
 mName="Strider Blacksmith"
 mTooltip=""
 
-[UniqueSpecializations.A_ChainLightningSpecialist H7HeroAbility]
-mTooltipMagicGuild=""
-mTooltipMagicGuildRankLine=""
-mTooltipUpgraded=""
-mName="Chain Lightning Specialist"
-mTooltip="The hero starts with the %spell1.name spell and can cast it on Novice rank with %stat1 %ICON_MAGIC Magic.\n%stat2 %ICON_MAGIC Magic when casting %spell1.name on Expert rank.\n%stat3 %ICON_MAGIC Magic when casting %spell1.name on Master rank."
-
 [CreatureBonus.A_VampireGeneral_Buff H7BaseBuff]
 mName="Vampire General"
 mTooltip=""

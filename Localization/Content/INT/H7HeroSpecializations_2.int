@@ -187,7 +187,7 @@ mTooltipMagicGuild=""
 mTooltipMagicGuildRankLine=""
 mTooltipUpgraded=""
 mName="Regeneration Adept"
-mTooltip="The hero starts with the Earth magic skill on novice rank and the %spell1.name spell. This spell is cast one rank above the current rank in this magic school. %stat1 %ICON_MAGIC Magic when casting this spell on Master rank."
+mTooltip="Hero starts with %spell1.name spell and casts it with %stat1 %ICON_MAGIC Magic and -%special.norm% %ICON_MANA mana cost."
 
 UCP 1.2 
 note - many specs are originally from HeroSpecializations but updated, they can stay only here or in the original file as well (they won't be used there)
@@ -387,21 +387,21 @@ mTooltipMagicGuild=""
 mTooltipMagicGuildRankLine=""
 mTooltipUpgraded=""
 mName="Fire Bolt Adept"
-mTooltip="The hero starts with the Fire magic skill on novice rank and the %spell1.name spell.\nThis spell is cast one rank above the current rank in this magic school. %stat1 %ICON_MAGIC Magic when casting this spell on Master rank."
+mTooltip="Hero starts with %spell1.name spell and casts it and %spell2.name with %stat1 %ICON_MAGIC Magic and -%special.norm% %ICON_MANA mana cost."
 
 [SpellSpecializations.A_HealMaster H7HeroAbility]
 mTooltipMagicGuild=""
 mTooltipMagicGuildRankLine=""
 mTooltipUpgraded=""
 mName="Heal Adept"
-mTooltip="The hero starts with the Light magic skill on novice rank and the %spell1.name spell.\nThis spell is cast one rank above the current rank in this magic school. %stat1 %ICON_MAGIC Magic when casting this spell on Master rank."
+mTooltip="Hero starts with %spell1.name spell and casts it with %stat1 %ICON_MAGIC Magic and -%special.norm% %ICON_MANA mana cost."
 
 [SpellSpecializations.A_LightningMaster H7HeroAbility]
 mTooltipMagicGuild=""
 mTooltipMagicGuildRankLine=""
 mTooltipUpgraded=""
 mName="Lightning Adept"
-mTooltip="The hero starts with the Air magic skill on novice rank and the %spell1.name spell.\nThis spell is cast one rank above the current rank in this magic school. %stat1 %ICON_MAGIC Magic when casting this spell on Master rank."
+mTooltip="Hero starts with %spell1.name spell and casts it and %spell2.name with %stat1 %ICON_MAGIC Magic and -%special.norm% %ICON_MANA mana cost."
 
 [SpellSpecializations.A_Mad H7HeroAbility]
 mTooltipMagicGuild=""
@@ -947,3 +947,9 @@ mTooltipUpgraded=""
 mName="Fireheart"
 mTooltip="After the hero cast a fire spell in combat he gets a second turn for this combat round. Spell cast in this second turn will be cast with %buff1.buff.stat2 %ICON_MAGIC Magic."
 
+[SpellSpecializations.A_ChainLightningSpecialist H7HeroAbility]
+mTooltipMagicGuild=""
+mTooltipMagicGuildRankLine=""
+mTooltipUpgraded=""
+mName="Chain Lightning Specialist"
+mTooltip="Hero starts with %spell1.name spell and casts it with %stat1 %ICON_MAGIC Magic and -%special.norm% %ICON_MANA mana cost."
