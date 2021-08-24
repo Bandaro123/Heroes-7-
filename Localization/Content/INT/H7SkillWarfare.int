@@ -25,7 +25,7 @@ mTooltipMagicGuild=""
 mTooltipMagicGuildRankLine=""
 mTooltipUpgraded=""
 mName="Artillery"
-mTooltip="The hero's attack and support warfare unit can be controlled manually."
+mTooltip="The hero's attack warfare can be controlled manually."
 
 [A_SiegeWarfare_Ability H7HeroAbility]
 mTooltipMagicGuild=""
@@ -86,7 +86,7 @@ mTooltipMagicGuild=""
 mTooltipMagicGuildRankLine=""
 mTooltipUpgraded=""
 mName="Artillery Barrage"
-mTooltip="The hero's attack warfare unit shoots three times at the same target. The ability will trigger once per turn."
+mTooltip="The hero's attack warfare has %stat %stat.icon Attack."
 
 UCP 1.2
 

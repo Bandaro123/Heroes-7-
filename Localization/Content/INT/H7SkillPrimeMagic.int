@@ -10,7 +10,7 @@ mTooltipMagicGuild=""
 mTooltipMagicGuildRankLine=""
 mTooltipUpgraded=""
 mName="Prime Knowledge III"
-mTooltip="%spell1.name deals %spell1.spell.buff2.buff.d.min %ICON_PRIME Damage when expiring .\nThe number of elementals summoned with %spell2.name increases at start of the next combat round by %special."
+mTooltip="%spell1.name deals %spell1.spell.buff2.buff.d.min %ICON_PRIME Damage.\nThe number of elementals summoned with %spell2.name increases at start of the next combat round by %special."
 
 [A_Clarity_Buff H7BaseBuff]
 mName="Clarity"
