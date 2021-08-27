@@ -31,7 +31,7 @@ mTooltipMagicGuild=""
 mTooltipMagicGuildRankLine=""
 mTooltipUpgraded=""
 mName="Mystic"
-mTooltip="Doubles the %ICON_MANA mana regeneration rate."
+mTooltip="Increases the %ICON_MANA mana regeneration rate by %stat."
 
 [A_Mentor_Ability H7HeroAbility]
 mTooltipMagicGuild=""

@@ -3,7 +3,7 @@ mTooltipMagicGuild=""
 mTooltipMagicGuildRankLine=""
 mTooltipUpgraded=""
 mName="Water Knowledge I"
-mTooltip="%spell1.name isn't removed anymore if the creature receives damage.\n%spell2.name now reduces creatures' movement for %spell2.spell.buff1.buff.buff.buff.durini2 turns.\nAdds %spell3.name to spellbook."
+mTooltip="%spell1.name isn't removed anymore if the creature receives damage.\n%spell2.name now deals %spell2.spell.buff1.buff.buff.buff.d.min to %spell2.spell.buff1.buff.buff.buff.d.max %ICON_WATER damage on contact.\nAdds %spell3.name to spellbook."
 
 [A_WaterScholar_Ability H7HeroAbility]
 mTooltipMagicGuild=""

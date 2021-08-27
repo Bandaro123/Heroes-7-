@@ -86,7 +86,7 @@ mTooltipMagicGuild=""
 mTooltipMagicGuildRankLine=""
 mTooltipUpgraded=""
 mName="Artillery Barrage"
-mTooltip="The hero's attack warfare has %stat %stat.icon Attack."
+mTooltip="The hero's attack warfare has %buff.buff.stat %buff.buff.stat.icon Attack."
 
 UCP 1.2
 

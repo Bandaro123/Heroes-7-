@@ -166,11 +166,11 @@ mName="Fire Sentry"
 mTooltip="Summon a 1x1 Fire Sentry with %special.val1 health on target empty tile. It lasts until the end of the next 2 combat rounds or until destroyed. The Fire Sentry shoots at two random of the closest enemy creatures at the end of each combat round and at the first enemy creature that performed a ranged attack during a combat round. Each shot deals %special.val2 to %special.val3 %icon_fire Fire damage."
 
 [A_FireWall H7HeroAbility]
-mTooltipMagicGuild="Creates a Fire wall on the target 1x5 area for %durini combat rounds. It deals %ICON_FIRE Fire damage to all creatures in the area at the start of their turn and to creatures moving through."
+mTooltipMagicGuild="Creates a Fire wall on the target 1x5 area for %durini combat round. It deals %ICON_FIRE Fire damage to all creatures ending their turn theres and to creatures moving through."
 mTooltipMagicGuildRankLine="%buff1.buff.d1.min to %buff1.buff.d1.max %buff1.buff.d1.icon"
-mTooltipUpgraded="Creates a Fire Wall on the target 1x5 area for %durini combat rounds. It deals %buff1.buff.d1.min to %buff1.buff.d1.max %buff1.buff.d1.icon Fire damage to all creatures in the area at the start of their turn. They also suffer %buff3.buff.d.min to %buff3.buff.d.max %ICON_FIRE Fire damage over %buff3.buff.durini turns."
+mTooltipUpgraded="Creates a Fire Wall on the target 1x5 area for %durini combat round. It deals %buff1.buff.d1.min to %buff1.buff.d1.max %buff1.buff.d1.icon Fire damage to all creatures . They also suffer %buff3.buff.d.min to %buff3.buff.d.max %ICON_FIRE Fire damage over %buff3.buff.durini turns."
 mName="Fire Wall"
-mTooltip="Creates a Fire wall on the target 1x5 area for %durini combat rounds. It deals %buff1.buff.d1.min to %buff1.buff.d1.max %buff1.buff.d1.icon Fire damage to all creatures in the area at the start of their turn and to creatures moving through."
+mTooltip="Creates a Fire wall on the target 1x5 area for %durini combat round. It deals %buff1.buff.d1.min to %buff1.buff.d1.max %buff1.buff.d1.icon Fire damage to all creatures ending their turn there and to creatures moving through."
 
 [Imprinted.A_FireSentry_Imprinted_Obstacle H7CombatObstacleObject]
 mObstacleName="Fire Sentry"
