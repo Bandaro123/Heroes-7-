@@ -17,7 +17,7 @@ mTooltipMagicGuild=""
 mTooltipMagicGuildRankLine=""
 mTooltipUpgraded=""
 mName="Alchemist"
-mTooltip="%special1 %icon_Crystal Dragon Blood Crystal, %icon_Dragonsteel Dragon Steel, %icon_Shadowsteel Shadowsteel or %icon_Starsilver Starsilver at random twice per day."
+mTooltip="%special1 %icon_Crystal Dragon Blood Crystal, %icon_Dragonsteel Dragon Steel, %icon_Shadowsteel Shadowsteel or %icon_Starsilver Starsilver at random per day."
 
 [A_Recruiter_Ability H7HeroAbility]
 mTooltipMagicGuild=""
