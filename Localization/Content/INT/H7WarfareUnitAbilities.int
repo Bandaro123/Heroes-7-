@@ -236,6 +236,10 @@ mTooltipUpgraded="Heals and resurrects target friendly creature for %d2.max Heal
 mName="Heal"
 mTooltip="Heals target friendly creature for %d1.max Health.\n(Not affected: Undead and Constructs)\n\nPerfect Warfare unlocks: The Healing Sister also resurrects fallen creatures."
 
+[haven]A.HealingSister_Vestal_buff H7WarfareAbility]
+mName="Vestal's heal"
+mTooltip=The creature recovers %d.min Health at the start of its turn. Lasts for %durnow turn(s).
+
 [haven.A_TowerHaven_Attack H7BaseAbility]
 mTooltipMagicGuild=""
 mTooltipMagicGuildRankLine=""

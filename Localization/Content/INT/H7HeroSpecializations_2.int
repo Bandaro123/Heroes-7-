@@ -1,11 +1,11 @@
-[CustomEffects.A_BallistaCommander H7HeroAbility]
+[Warfare.A_BallistaCommander H7HeroAbility]
 mTooltipMagicGuild=""
 mTooltipMagicGuildRankLine=""
 mTooltipUpgraded=""
 mName="Ballista Commander"
 mTooltip="The hero starts with a Haven ballista unit. Haven ballistae in this hero's army get %buff.buff.stat %buff.buff.stat.icon Attack."
 
-[CustomEffects.A_BallistaCommander_Buff H7BaseBuff]
+[Warfare.A_BallistaCommander_Buff H7BaseBuff]
 mName="Ballista Commander"
 mTooltip=""
 
@@ -14,7 +14,7 @@ mTooltipMagicGuild=""
 mTooltipMagicGuildRankLine=""
 mTooltipUpgraded=""
 mName="Black Marketeer"
-mTooltip="The hero provides 1 random rare resource per day to this kingdom."
+mTooltip="The hero provides 2 random rare resources per day to this kingdom."
 
 [CustomEffects.A_Cautious H7HeroAbility]
 mTooltipMagicGuild=""
@@ -39,7 +39,7 @@ mTooltipMagicGuild=""
 mTooltipMagicGuildRankLine=""
 mTooltipUpgraded=""
 mName="Chef"
-mTooltip="Friendly living creatures regenerate %d.min Health at the end of each combat round. Friendly living creatures get %buff.buff.stat %buff.buff.stat.icon Morale."
+mTooltip="Friendly living creatures regenerate %d.min Health at the end of each combat round, can resurrect. Friendly living creatures get %buff.buff.stat %buff.buff.stat.icon Morale."
 
 [CustomEffects.A_Chef_Buff H7BaseBuff]
 mName="Chef"
@@ -78,27 +78,27 @@ mTooltipUpgraded=""
 mName=""
 mTooltip=""
 
-[CustomEffects.A_Hotheaded H7HeroAbility]
+[Warfare.A_Hotheaded H7HeroAbility]
 mTooltipMagicGuild=""
 mTooltipMagicGuildRankLine=""
 mTooltipUpgraded=""
 mName="Hotheaded"
-mTooltip="The hero starts with a Sylvan ballista. Sylvan ballistae in the hero's army get %buff1.buff.stat %buff1.buff.stat.icon Initiative. All friendly units get %buff2.buff.stat %buff2.buff.stat.icon Initiative in the first combat round."
+mTooltip="The hero starts with a Sylvan ballista. All units and ballistae get %buff1.buff.stat %buff1.buff.stat.icon Initiative."
 
-[CustomEffects.A_Hotheaded_Buff H7BaseBuff]
+[Warfare.A_Hotheaded_Buff H7BaseBuff]
 mName="Hotheaded"
 mTooltip=""
 
-[CustomEffects.A_Hotheaded_Buff_Ballista H7BaseBuff]
+[Warfare.A_Hotheaded_Buff_Ballista H7BaseBuff]
 mName="Hotheaded"
 mTooltip=""
 
-[CustomEffects.A_Ingineer H7HeroAbility]
+[Warfare.A_Ingineer H7HeroAbility]
 mTooltipMagicGuild=""
 mTooltipMagicGuildRankLine=""
 mTooltipUpgraded=""
 mName="Ingineer"
-mTooltip="The hero starts with a Rune Stone and a Dwarven Ballista. As long as the hero doesn't own a support or attack warfare unit at the end of any battle he receives the corresponding Dwarven unit."
+mTooltip="The hero starts with a Rune Stone and a Dwarven Ballista. Dwarven Ballista has %buff.buff.stat %buff.buff.stat.icon Attack. Rune Stone and Dwarven Ballista get repaired after battle."
 
 [CustomEffects.A_InsatiableThirst H7HeroAbility]
 mTooltipMagicGuild=""
@@ -125,12 +125,12 @@ mTooltipUpgraded=""
 mName="Marauder"
 mTooltip="The hero gains twice the amount of resources from plundering."
 
-[CustomEffects.A_Pugnacious H7HeroAbility]
+[StartingAttributeIncrease.A_Pugnacious H7HeroAbility]
 mTooltipMagicGuild=""
 mTooltipMagicGuildRankLine=""
 mTooltipUpgraded=""
 mName="Pugnacious"
-mTooltip="The hero attack deals additional %stat1 damage per hero level."
+mTooltip="The hero attack deals additional %stat1 damage."
 
 [CustomEffects.A_RuneKeeper H7HeroAbility]
 mTooltipMagicGuild=""
@@ -150,23 +150,19 @@ mTooltip="Defenders and Shieldguards have %buff1.buff.stat1 %ICON_ATTACK Attack 
 mName="Shieldmaiden"
 mTooltip=""
 
-[CustomEffects.A_SpiritChanneler H7HeroAbility]
+[StartingAttributeIncrease.A_SpiritChanneler H7HeroAbility]
 mTooltipMagicGuild=""
 mTooltipMagicGuildRankLine=""
 mTooltipUpgraded=""
 mName="Spirit Channeler"
 mTooltip="The hero regenerates additional %stat.norm Mana per day."
 
-[CustomEffects.A_Vestal H7HeroAbility]
+[Warfare.A_Vestal H7HeroAbility]
 mTooltipMagicGuild=""
 mTooltipMagicGuildRankLine=""
 mTooltipUpgraded=""
 mName="Vestal"
-mTooltip="The hero starts with a Healing Sister unit. Healing Sisters in the hero's army also heal all friendly units next  to its target."
-
-[CustomEffects.A_Vestal_Buff H7BaseBuff]
-mName="Vestal (Buff)"
-mTooltip=""
+mTooltip="Starts with Healing Sister. Target healed by Sister receives +25 health at the start of it's next turn and can be resurrected this way."
 
 [CustomEffects.A_Vikingr H7HeroAbility]
 mTooltipMagicGuild=""
@@ -208,49 +204,49 @@ mTooltipMagicGuild=""
 mTooltipMagicGuildRankLine=""
 mTooltipUpgraded=""
 mName="Disciple of Air"
-mTooltip="The hero has %stat %icon_magic Magic when casting Air spells."
+mTooltip="The hero has %stat %icon_magic and -%special.norm% mana cost Magic when casting Air spells."
 
 [MagicSchool.A_MasterOfDarkness H7HeroAbility]
 mTooltipMagicGuild=""
 mTooltipMagicGuildRankLine=""
 mTooltipUpgraded=""
 mName="Disciple of Darkness"
-mTooltip="The hero has %stat %icon_magic Magic when casting Dark spells."
+mTooltip="The hero has %stat %icon_magic and -%special.norm% mana cost Magic when casting Dark spells."
 
 [MagicSchool.A_MasterOfEarth H7HeroAbility]
 mTooltipMagicGuild=""
 mTooltipMagicGuildRankLine=""
 mTooltipUpgraded=""
 mName="Disciple of Earth"
-mTooltip="The hero has %stat %icon_magic Magic when casting Earth spells."
+mTooltip="The hero has %stat %icon_magic and -%special.norm% mana cost Magic when casting Earth spells."
 
 [MagicSchool.A_MasterOfFire H7HeroAbility]
 mTooltipMagicGuild=""
 mTooltipMagicGuildRankLine=""
 mTooltipUpgraded=""
 mName="Disciple of Fire"
-mTooltip="The hero has %stat %icon_magic Magic when casting Fire spells."
+mTooltip="The hero has %stat %icon_magic and -%special.norm% mana cost Magic when casting Fire spells."
 
 [MagicSchool.A_MasterOfLight H7HeroAbility]
 mTooltipMagicGuild=""
 mTooltipMagicGuildRankLine=""
 mTooltipUpgraded=""
 mName="Disciple of Light"
-mTooltip="The hero has %stat %icon_magic Magic when casting Light spells."
+mTooltip="The hero has %stat %icon_magic and -%special.norm% mana cost Magic when casting Light spells."
 
 [MagicSchool.A_MasterOfPrime H7HeroAbility]
 mTooltipMagicGuild=""
 mTooltipMagicGuildRankLine=""
 mTooltipUpgraded=""
 mName="Disciple of Prime"
-mTooltip="The hero has %stat %icon_magic Magic when casting casting Prime spells."
+mTooltip="The hero has %stat %icon_magic and -%special.norm% mana cost Magic when casting casting Prime spells."
 
 [MagicSchool.A_MasterOfWater H7HeroAbility]
 mTooltipMagicGuild=""
 mTooltipMagicGuildRankLine=""
 mTooltipUpgraded=""
 mName="Disciple of Water"
-mTooltip="The hero has %stat %icon_magic Magic when casting  Water spells."
+mTooltip="The hero has %stat %icon_magic and -%special.norm% mana cost Magic when casting  Water spells."
 
 [MightAbility.A_ArcheryMaster H7HeroAbility]
 mTooltipMagicGuild=""
@@ -468,14 +464,14 @@ mTooltipMagicGuild=""
 mTooltipMagicGuildRankLine=""
 mTooltipUpgraded=""
 mName="Spellweaver"
-mTooltip="The hero has +1 %stat.icon Magic for every three hero levels."
+mTooltip="The hero has %stat %stat.icon Magic."
 
 [StartingAttributeIncrease.A_SpiritWalker H7HeroAbility]
 mTooltipMagicGuild=""
 mTooltipMagicGuildRankLine=""
 mTooltipUpgraded=""
 mName="Spirit Walker"
-mTooltip="The hero has %stat %stat.icon maximum Mana."
+mTooltip="The hero has %stat %stat.icon Spirit."
 
 [StartingAttributeIncrease.A_Terrain_Expert H7HeroAbility]
 mTooltipMagicGuild=""
