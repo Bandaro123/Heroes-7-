@@ -145,7 +145,7 @@ mTooltip="%stat %icon_leadership Morale. Lasts as long as there is another frien
 
 [A_Martyr_Buff_MartyrAdoration H7BaseBuff]
 mName="Martyr Adoration"
-mTooltip="%stat %icon_leadership Morale. Lasts as long as there is another friendly creature with the Martyr buff."
+mTooltip="This unit transfers damage received to Martyr. Lasts as long as there is another friendly creature with the Martyr buff."
 
 UCP 1.1 
 
@@ -162,10 +162,10 @@ mName="Martyr"
 mTooltip="%buff1.buff.special1 of the unmagical damage any other friendly creature would get is redirected to this creature. Lasts for %durnow combat rounds."
 
 [A_Martyr H7HeroAbility]
-mTooltipMagicGuild="Target friendly creature becomes the martyr. Whenever any other friendly creature receives unmagical damage, a percentage of that damage is redirected to the martyr. All other creatures have %buff1.buff.buff1.buff.stat %icon_leadership Morale. Lasts for %buff1.buff.durini combat rounds or until the martyr dies."
-mTooltipMagicGuildRankLine="%buff1.buff.buff1.buff.special1 damage redirection."
+mTooltipMagicGuild="Target friendly creature becomes the martyr. Part of any creature's received damage is redirected to the martyr. Martyr receives %buff1.buff.stat %buff1.buff.stat.icon health. Lasts for %buff1.buff.durini combat rounds or until the martyr dies."
+mTooltipMagicGuildRankLine="%buff1.buff.buff1.buff.special1 damage redirection. \n0.3%/0.5%/0.7%/1% * Magic bonus Health."
 mName="Martyr"
-mTooltip="Target friendly creature becomes the martyr. Whenever any other friendly creature receives unmagical damage %buff1.buff.buff1.buff.special1 of that damage is redirected to the martyr. All other creatures have %buff1.buff.buff1.buff.stat %icon_leadership Morale. Lasts for %buff1.buff.durini combat rounds or until the martyr dies."
+mTooltip="Target friendly creature becomes the martyr. %buff1.buff.buff1.buff.special1 of any creature's received damage is redirected to the martyr. Martyr receives %buff1.buff.stat %buff1.buff.stat.icon health. Lasts for %buff1.buff.durini combat rounds or until the martyr dies."
 
 [Imprinted.A_Martyr_Imprinted H7HeroAbility]
 mName="Martyr"
