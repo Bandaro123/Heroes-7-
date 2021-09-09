@@ -27,7 +27,7 @@ mTooltip="The creature teleports to the location of a friendly rune. The rune is
 
 [A_MagmaBlood H7CreatureAbility]
 mName="Magma Blood"
-mTooltip="The creature cannot be the target of negative Fire spells or effects. Fire damage from enemy attacks can only kill the top creature of the stack."
+mTooltip="The creature is immune to negative Fire spells or effects. Fire damage from enemy attacks can only kill the top creature of the stack."
 
 [A_Regeneration_Dragon H7CreatureAbility]
 mName="Regeneration"

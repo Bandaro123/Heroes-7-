@@ -79,14 +79,13 @@ mDescriptions[4]="The hero's warfare units are level 4."
 mName="Warfare"
 mTooltip="Warfare Skill Tooltip"
 
-UCP MOD
 
 [A_ArtilleryBarrage_Ability H7HeroAbility]
 mTooltipMagicGuild=""
 mTooltipMagicGuildRankLine=""
 mTooltipUpgraded=""
 mName="Artillery Barrage"
-mTooltip="The hero's attack warfare has %buff.buff.stat %buff.buff.stat.icon Attack."
+mTooltip="The hero's Attack Warfare shoots twice."
 
 UCP 1.2
 
