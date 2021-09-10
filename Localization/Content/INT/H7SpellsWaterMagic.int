@@ -67,7 +67,7 @@ mName="Liquid Membrane"
 mTooltip="All damage dealt to the creature is reduced by %res.norm.\nLasts for %durnow turn(s)."
 
 [A_Blizzard H7HeroAbility]
-mTooltipMagicGuild="Creates a blizzard on the target 4x4 area for %durini combat round. Creatures inside get %buff.buff.buff.buff.stat.icon Movement reduced for %bufff.buff.buff.buff.durini turns."
+mTooltipMagicGuild="Creates a blizzard on the target 4x4 area for %durini combat round. Creatures inside get %buff.buff.buff.buff.stat.icon Movement reduced for %buff.buff.buff.buff.durini turns."
 mTooltipMagicGuildRankLine="%buff.buff.buff.buff.stat %buff.buff.buff.buff.stat.icon Movement"
 mTooltipUpgraded="Creates a blizzard on the target 4x4 area for %durini combat round.\nDeals %buff.buff.buff.buff.d.min to %buff.buff.buff.buff.d.max %ICON_WATER Water damage and reduces %buff.buff.buff.buff.stat.icon Movement by %buff.buff.buff.buff.stat.norm for %buff.buff.buff.buff.durini turns."
 mName="Blizzard"
