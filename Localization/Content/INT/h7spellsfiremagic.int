@@ -221,8 +221,8 @@ mName="Inner Fire"
 mTooltip="Increases by %buff.buff.stat1 %buff.buff.stat1.icon the Attack and by %buff.buff.stat2 %buff.buff.stat2.icon the Initiative of the target melee creatures for %buff.buff.durini turns."
 
 [A_FireSentry H7HeroAbility]
-mTooltipMagicGuild="Summon a 1x1 Fire Sentry on target empty tile. It lasts until the end of the next 2 combat rounds. The Fire Sentry shoots fire at two random of the closest enemy creatures at the end of each combat round and at the first enemy creature that performed a ranged attack during a combat round."
-mTooltipMagicGuildRankLine="Shots deal %special.val2 to %special.val3 %icon_fire Fire damage."
+mTooltipMagicGuild="Summon a 1x1 Fire Sentry on target empty tile. It lasts until the end of the next 2 combat rounds. The Fire Sentry shoots fire at two random of the closest enemy creatures at the end of each combat round(6 in total) and at the first enemy creature that performed a ranged attack during a combat round." 
+mTooltipMagicGuildRankLine="Shots deal 7/10/14/22 * Magic %icon_fire Fire damage."
 mTooltipUpgraded=""
 mName="Fire Sentry"
 mTooltip="Summon a 1x1 Fire Sentry on target empty tile. It lasts until the end of the next 2 combat rounds, The Fire Sentry shoots at two random of the closest enemy creatures at the end of each combat round and at the first enemy creature that performed a ranged attack during a combat round. Each shot deals %special.val2 to %special.val3 %icon_fire Fire damage."
