@@ -1,10 +1,6 @@
 [A_PoisonCloud_Buff H7BaseBuff]
 mName="Poison Cloud"
 
-[Imprinted.A_PoisonSpray_Imprinted_Buff H7BaseBuff]
-mName="Poison Spray"
-mTooltip="Deals %d.min %d.icon Earth damage to the target creature at the start of its turn.\nLasts for %durnow turn(s)."
-
 [A_StoneSkin_Buff H7BaseBuff]
 mName="Stone Skin"
 mTooltip="%stat %ICON_DEFENSE Defence\nLasts for %durnow turn(s)."
@@ -28,7 +24,12 @@ mTooltip="Creates a poison cloud on the target 3x3 area that expands by 1 in eac
 
 [Imprinted.A_Entangle_Imprinted H7HeroAbility]
 mName="Entangle"
-mTooltip="Decreases by %buff1.buff.stat1.norm the %buff1.buff.stat1.icon Movement of the target enemy creature and prevents it from using movement based abilities for %buff1.buff.durini turns. Does not affect teleporting creatures."
+mTooltip="Decreases by %buff.buff.stat1.norm the %buff.buff.stat1.icon Movement of the target enemy creature and prevents it from using movement based abilities for %buff.buff.durini turns. The entangled target takes %buff.buff.d.min %buff.buff.d.icon Earth damage when moving, for %buff.buff.durini turns. Does not affect teleporting creatures."
+
+[Imprinted.A_Entangle_Imprinted_Buff H7BaseBuff]
+mName="Entangle"
+mTooltip="%stat1 %stat1.icon Movement\n The creature cannot use movement based abilities and receives %dam.min %dam.icon Earth damage when it moves. \nLasts for %durnow turn(s)."
+
 
 [A_StoneSkin H7HeroAbility]
 mTooltipMagicGuild="Increases the %ICON_DEFENSE Defence of the target friendly creature for %buff.buff.durini turns."
@@ -83,15 +84,11 @@ mTooltip="Production is doubled for the next %durnow day(s)."
 
 [Imprinted.A_PoisonSpray_Imprinted H7HeroAbility]
 mName="Poison Spray"
-mTooltip="Deals %buff1.buff.d.min %buff1.buff.d.icon Earth damage to the target enemy creature at start of its next %buff1.buff.durini1 turns."
+mTooltip="Deals %buff.buff.d.min %buff.buff.d.icon Earth damage to the target enemy creature at the start of its turn.\nLasts until the end of combat."
 
-[Imprinted.A_StoneSkin_Imprinted H7HeroAbility]
-mName="Stone Skin"
-mTooltip="Increases by %buff.buff.stat.norm the %ICON_DEFENSE Defence of the target friendly creature for %buff.buff.durini turns."
-
-[Imprinted.A_Entangle_Imprinted_Buff H7BaseBuff]
-mName="Entangle"
-mTooltip="%stat %stat.icon Movement\nThe creature cannot use movement based abilities.\nLasts for %durnow turn(s)."
+[Imprinted.A_PoisonSpray_Imprinted_Buff H7BaseBuff]
+mName="Poison Spray"
+mTooltip="Deals %d.min %d.icon Earth damage to the target creature at the start of its turn.\nLasts for the whole combat."
 
 [A_Entangle_Buff H7BaseBuff]
 mName="Entangle"
@@ -99,7 +96,7 @@ mTooltip="%stat %stat.icon Movement\n The creature cannot use movement based abi
 
 [Imprinted.A_Earthquake_Imprinted H7HeroAbility]
 mName="Earthquake"
-mTooltip="Deals %d3.min %d3.icon Earth damage to all units standing on the ground and deals %d1.min %d1.icon Earth damage to all town walls and towers, instantly. Damaged fortifications take double the damage."
+mTooltip="Deals %d2.min %d2.icon Earth damage to all units standing on the ground and deals %d1.min %d1.icon Earth damage to all town walls and towers, instantly. Damaged fortifications take double the damage."
 
 [A_StoneSpikes H7HeroAbility]
 mTooltipMagicGuild="Deals %ICON_EARTH Earth damage to all units in the target plus-shaped area, instantly."
@@ -117,7 +114,11 @@ mTooltip="Deals %buff1.buff.d.min %buff1.buff.d.icon Earth damage to the target 
 
 [Imprinted.A_StoneSpikes_Imprinted H7HeroAbility]
 mName="Stone Spikes"
-mTooltip="Deals %d.min %d.icon Earth damage to all units in the target plus-shaped area, instantly."
+mTooltip="Deals %d.min %d.icon Earth damage to all units in the target plus-shaped area instantly. The unit in the centre takes double damage."
+
+[Imprinted.A_StoneSkin_Imprinted H7HeroAbility]
+mName="Stone Skin"
+mTooltip="Increases by %buff.buff.stat.norm the %ICON_DEFENSE Defence of all friendly creatures area for %buff.buff.durini turns."
 
 [Imprinted.A_StoneSkin_Imprinted_Buff H7BaseBuff]
 mName="Stone Skin"
@@ -125,7 +126,7 @@ mTooltip="%stat %ICON_DEFENSE Defence\nLasts for %durnow turn(s)."
 
 [Imprinted.A_StoneSpikes_Imprinted_Artifact H7HeroAbility]
 mName="Stone Spikes"
-mTooltip="Deals %d.min %d.icon Earth damage to all units in the target plus-shaped area, instantly."
+mTooltip="Deals %d.min %d.icon Earth damage to all units in the target plus-shaped area instantly. The unit in the centre takes double damage."
 
 [Imprinted.A_SylannasBounty_Imprinted H7HeroAbility]
 mName="Sylanna's Bounty"
@@ -161,32 +162,37 @@ UCP MOD
 
 [Imprinted.A_Regeneration_Imprinted H7HeroAbility]
 mName="Regeneration"
-mTooltip="Heals and resurrects %buff.buff.d.min Health of the target friendly creature at the start of its next %buff.buff.durini turns.\n(Not affected: Undead and Constructs)"
+mTooltip="Heals and resurrects %buff.buff.d.min Health of all friendly creatures in the target 4x4 area at the start of their next %buff.buff.durini turns."
 
-UCP 1.2
-
-[Imprinted.A_WaspSwarm_Imprinted_Artifact_Buff H7BaseBuff]
-mName="Wasp Swarm"
-mTooltip="%stat %icon_destiny Luck until the end of the creatures next turn. The swarm will still move up to %durnow time(s)."
-
-[Imprinted.A_WaspSwarm_Imprinted_Buff H7BaseBuff]
-mName="Wasp Swarm"
-mTooltip="%stat %icon_destiny Luck until the end of the creatures next turn. The swarm will still move up to %durnow time(s)."
-
-[A_WaspSwarm_Buff H7BaseBuff]
-mName="Wasp Swarm"
-mTooltip="%stat %icon_destiny Luck until the end of the creatures next turn. The swarm will still move up to %durnow time(s)."
+UCP 1.3
 
 [Imprinted.A_WaspSwarm_Imprinted H7HeroAbility]
 mName="Wasp Swarm"
-mTooltip="Cast a wasp swarm on target enemy creature. The swarm deals %buff1.buff.d.min %icon_earth Earth damage when it is applied and the creature has %buff1.buff.stat %icon_destiny Luck until the end of the creature's turn. At the start of the turn of a creature with the swarm the swarm moves on to another enemy creature. The swarm affects up to %buff1.buff.durini targets."
+mTooltip="Cast a wasp swarm on target enemy creature. The swarm deals %buff1.buff.d.min %icon_earth Earth damage when it is applied and the creature has %buff1.buff.stat %icon_destiny Luck until the end of its next turn. At the start of the turn of a creature with the swarm or when a creature with the swarm dies, the swarm moves on to another enemy creature.\nThe swarm will attack enemies for %buff2.buff.durini turn(s)."
 
 [Imprinted.A_WaspSwarm_Imprinted_Artifact H7HeroAbility]
 mName="Wasp Swarm"
-mTooltip="Cast a wasp swarm on target enemy creature. The swarm deals %buff1.buff.d.min %icon_earth Earth damage when it is applied and the creature has %buff1.buff.stat %icon_destiny Luck until the end of the creature's turn. At the start of the turn of a creature with the swarm the swarm moves on to another enemy creature. The swarm affects up to %buff1.buff.durini targets."
+mTooltip="Cast a wasp swarm on target enemy creature. The swarm deals %buff1.buff.d.min %icon_earth Earth damage when it is applied and the creature has %buff1.buff.buff1.buff.stat %icon_destiny Luck until the end of its next turn. At the start of the turn of a creature with the swarm or when a creature with the swarm dies, the swarm moves on to another enemy creature.\nThe swarm will attack enemies for %buff2.buff.durini turn(s)."
 
 [A_WaspSwarm H7HeroAbility]
-mTooltipMagicGuild="Cast a wasp swarm on target enemy creature. The swarm deals %icon_earth Earth damage when it is applied and the creature has %buff1.buff.stat %icon_destiny Luck until the end of the creature's turn. At the start of the turn of a creature with the swarm the swarm moves on to another enemy creature."
-mTooltipMagicGuildRankLine="%buff1.buff.d.min %icon_earth Earth damage. Affects up to %buff1.buff.durini targets."
+mTooltipMagicGuild="Cast a wasp swarm on target enemy creature. The swarm deals %icon_earth Earth damage when it is applied and the creature has %buff1.buff.buff1.buff.stat %icon_destiny Luck until the end of its next turn. At the start of the turn of a creature with the swarm or when a creature with the swarm dies, the swarm moves on to another enemy creature."
+mTooltipMagicGuildRankLine="%buff1.buff.d.min %icon_earth Earth damage. Affects enemies for %buff2.buff.durini turn(s)."
+mTooltipUpgraded=""
 mName="Wasp Swarm"
-mTooltip="Cast a wasp swarm on target enemy creature. The swarm deals %buff1.buff.d.min %icon_earth Earth damage when it is applied and the creature has %buff1.buff.stat %icon_destiny Luck until the end of the creature's turn. At the start of the turn of a creature with the swarm the swarm moves on to another enemy creature. The swarm affects up to %buff1.buff.durini targets."
+mTooltip="Cast a wasp swarm on target enemy creature. The swarm deals %buff1.buff.d.min %icon_earth Earth damage when it is applied and the creature has %buff1.buff.buff1.buff.stat %icon_destiny Luck until the end of its next turn. At the start of the turn of a creature with the swarm or when a creature with the swarm dies, the swarm moves on to another enemy creature.\nThe swarm will attack enemies for %buff2.buff.durini turn(s)."
+
+[A_WaspSwarm_Luck_Buff H7BaseBuff]
+mName="Wasp Swarm"
+mTooltip="%stat %icon_destiny Luck until the end of the creature's next turn." 
+
+[A_WaspSwarm_Hero_Buff H7BaseBuff]
+mName="Wasp Swarm"
+mTooltip="The swarm effect will attack enemies for %durnow turn(s)."
+
+[Imprinted.A_WaspSwarm_Imprinted_Artifact_Hero_Buff H7BaseBuff]
+mName="Wasp Swarm"
+mTooltip="The swarm effect will attack enemies for %durnow turn(s)."
+
+[Imprinted.A_WaspSwarm_Imprinted_Hero_Buff H7BaseBuff]
+mName="Wasp Swarm"
+mTooltip="The swarm effect will attack enemies for %durnow turn(s)."

@@ -66,7 +66,7 @@ mTooltipMagicGuild=""
 mTooltipMagicGuildRankLine=""
 mTooltipUpgraded=""
 mName="Fire Knowledge II"
-mTooltip="%spell1.name is now cast on all friendly creatures.\n%spell2.name additionally stops creatures and deals %spell2.spell.buff3.buff.d.min to %spell2.spell.buff3.buff.d.max %ICON_FIRE Fire damage for %spell2.spell.buff3.buff.durini turns."
+mTooltip="%spell1.name is now cast on all friendly creatures.\n%spell2.name deals %spell2.spell.buff3.buff.d.min to %spell2.spell.buff3.buff.d.max %ICON_FIRE Fire damage for %spell2.spell.buff3.buff.durini turns."
 
 [A_CatchingFire_Ability H7HeroAbility]
 mName="Catching Fire"

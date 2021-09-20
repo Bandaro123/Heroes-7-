@@ -27,11 +27,11 @@ mTooltip="The creature teleports to the location of a friendly rune. The rune is
 
 [A_MagmaBlood H7CreatureAbility]
 mName="Magma Blood"
-mTooltip="The creature cannot be the target of negative Fire spells or effects. Fire damage from enemy attacks can only kill the top creature of the stack."
+mTooltip="The creature is immune to negative Fire spells or effects. Fire damage from enemy attacks can only kill the top creature of the stack."
 
 [A_Regeneration_Dragon H7CreatureAbility]
 mName="Regeneration"
-mTooltip="The creature regenerates %d.min Health at end of its turn."
+mTooltip="The creature regenerates %d.min Health per unit at end of its turn."
 
 [A_PiercingShot H7CreatureAbility]
 mName="Piercing Shot"
@@ -189,7 +189,7 @@ mTooltip="The creature and neighbouring friendly creatures are Resistant to Ligh
 
 [A_Regeneration_ShantiriTitan H7CreatureAbility]
 mName="Regeneration"
-mTooltip="The creature regenerates %d.min Health at end of its turn."
+mTooltip="The creature regenerates %d.min Health per unit at end of its turn."
 
 [A_MagmaPond_Buff H7BaseBuff]
 mName="Magma Pond"
@@ -224,11 +224,11 @@ mTooltip="The creature suffers %res more Air damage."
 
 [A_ArmourPiercing H7CreatureAbility]
 mName="Armour Piercing"
-mTooltip="The creature's ranged attack ignores the target unit's %ICON_DEFENSE Defence."
+mTooltip="The creature's ranged attack ignores half the target unit's %ICON_DEFENSE Defence."
 
 [A_RavangerCharge H7CreatureAbility]
 mName="Charge"
-mTooltip="The creature attacks with +2 %ICON_ATTACK Attack for for every tile crossed before the attack."
+mTooltip="The creature attacks with +4 %ICON_ATTACK Attack for for every tile crossed before the attack."
 
 [A_ResistanceEarth H7CreatureAbility]
 mName="Resistant to Earth"
@@ -455,7 +455,7 @@ mTooltip="All magic damage received from spells adds %ICON_PRIME Prime damage to
 
 [A_Charge H7CreatureAbility]
 mName="Charge"
-mTooltip="The creature attacks with +2 %ICON_ATTACK Attack for for every tile crossed before the attack."
+mTooltip="The creature attacks with +4 %ICON_ATTACK Attack for for every tile crossed before the attack."
 
 [A_MagicTouch H7CreatureAbility]
 mName="Magic Touch"

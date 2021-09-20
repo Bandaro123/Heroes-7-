@@ -26,12 +26,19 @@ mTooltipUpgraded=""
 mName="Arcane Intuition"
 mTooltip="%stat %ICON_ARCANE_KNOWLEDGE Arcane Knowledge.\nThe hero has a %special.chance% chance to learn spells cast by enemy heroes during combat. The Arcane Knowledge requirement of the spells must still be fulfilled."
 
+[A_Mystic_Ability H7HeroAbility]
+mTooltipMagicGuild=""
+mTooltipMagicGuildRankLine=""
+mTooltipUpgraded=""
+mName="Mystic"
+mTooltip="Increases the %ICON_MANA mana regeneration rate by %stat."
+
 [A_Mentor_Ability H7HeroAbility]
 mTooltipMagicGuild=""
 mTooltipMagicGuildRankLine=""
 mTooltipUpgraded=""
 mName="Mentor"
-mTooltip="Doubles the mana regeneration rate."
+mTooltip="Heroes can exchange spells. During meeting gives 15% of his experience to another hero. "
 
 [A_EnlightenedLeader_Ability H7HeroAbility]
 mTooltipMagicGuild=""

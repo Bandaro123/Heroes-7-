@@ -63,11 +63,11 @@ mTooltip="Deals %d of the target creature stack's total Health as %d.icon Prime 
 
 [A_TimeStasis_Buff H7BaseBuff]
 mName="Time Stasis"
-mTooltip="Target creature cannot act and is treated as if not present, %name cannot be dispelled.\nLasts for %durnow turns."
+mTooltip="Receives only 80% of damage. Cannot act. %name cannot be dispelled.\nLasts for %durnow turns."
 
 [A_TimeStasis_Buff_Upgraded H7BaseBuff]
 mName="Time Stasis"
-mTooltip="Target creature cannot act and is treated as if not present, %name cannot be dispelled. Deals %d.min %ICON_PRIME damage when expiring.\nLasts for %durnow turns."
+mTooltip="Target is in dormant state, it cannot act and receives only 80% of damage. %name cannot be dispelled.\nLasts for %durnow turns. \nLasts for %durnow turns."
 
 [A_InstantRecall H7HeroAbility]
 mName="Instant Recall"
@@ -90,11 +90,11 @@ mName="Summon Elemental"
 mTooltip="Summons %special.val1 random elementals on the target 2x2 area, instantly."
 
 [A_TimeStasis H7HeroAbility]
-mTooltipMagicGuild="Target creature cannot act and is treated as if not present, %buff1.buff.name cannot be dispelled.\nLasts for %buff1.buff.durini turns."
+mTooltipMagicGuild="Target is in dormant state, it cannot act and receives only 80% of damage.\n %buff1.buff.name cannot be dispelled.\nLasts for %buff1.buff.durini turns."
 mTooltipMagicGuildRankLine="%special1 %ICON_MANA Mana casting costs"
-mTooltipUpgraded="Target creature cannot act and is treated as if not present, %buff1.buff.name cannot be dispelled. Deals %buff2.buff.d.min %ICON_PRIME Damage when expiring.\nLasts for %buff1.buff.durini turns."
+mTooltipUpgraded="Deals %buff2.buff.d.min %ICON_PRIME Damage. Target is in dormant state, it cannot act and receives only 80% of damage.\n %buff1.buff.name cannot be dispelled. \nLasts for %buff1.buff.durini turns."
 mName="Time Stasis"
-mTooltip="Target creature cannot act and is treated as if not present, %buff.name cannot be dispelled.\nLasts for %buff1.buff.durini turns."
+mTooltip="Target is in dormant state, it cannot act and receives only 80% of damage. %buff1.buff.name cannot be dispelled.\nLasts for %buff1.buff.durini turns."
 
 [Imprinted.A_DispelMagic_Imprinted H7HeroAbility]
 mName="Dispel Magic"
